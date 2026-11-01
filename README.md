@@ -351,56 +351,6 @@ Three full measurement campaigns of **1,300,000 shots** each were conducted (tot
 * `eqrng_seed_pqc.hex` – A certified 512-bit entropy seed formatted in hex for the post-quantum lattice algorithm **ML-KEM (CRYSTALS-Kyber)**.
 
 
-
----
-
-## 8. Setup and Run Instructions
-
-### Environment Requirements
-
-```bash
-pip install qiskit qiskit-iqm python-dotenv numpy scipy matplotlib pylatexenc
-
-```
-
-### Connection Setup
-
-Create a `token.env` file in the root directory:
-
-```env
-IQM_SERVER_URL=[https://odra5.e-science.pl/cocos](https://odra5.e-science.pl/cocos)
-IQM_TOKEN=your_secret_iqm_access_token
-
-```
-
-### Step 1: Topology Visualization
-
-```bash
-python eqrng_topology_visualizer.py
-
-```
-
-### Step 2: Quantum Data Acquisition on QPU (Stage 1)
-
-```bash
-python eqrng_stage1.py
-
-```
-
-*(If the connection is interrupted, rerunning the script safely resumes the process from the last checkpoint without data loss).*
-
-### Step 3: Validation, Post-processing, and NIST Tests (Stage 2)
-
-```bash
-# Standard analysis:
-python eqrng_stage2.py
-
-# Analysis with secure disk wiping of the control file:
-python eqrng_stage2.py --shred-sq3
-
-# Fast demo test on synthetic data:
-python eqrng_stage2.py --demo
-
 ```
 
 ```
