@@ -349,10 +349,3 @@ Three full measurement campaigns of **1,300,000 shots** each were conducted (tot
 * **Cryptographic Material:**
 * `eqrng_certified_key.bin` – SHA-256 conditioned binary key ready for **OTP** or **AES-256-GCM** encryption.
 * `eqrng_seed_pqc.hex` – A certified 512-bit entropy seed formatted in hex for the post-quantum lattice algorithm **ML-KEM (CRYSTALS-Kyber)**.
-
-
-```
-
-```
-
-```
