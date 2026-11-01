@@ -1,0 +1,19 @@
+{
+  "completed_batches": 130,
+  "total_batches": 200,
+  "batch_shots": 10000,
+  "shots_processed": 1300000,
+  "valid_shots": 1212209,
+  "error_shots": 87791,
+  "calibration_set_id": "1ff35310-24cc-4eea-ba60-d0c15ce8e209",
+  "counts": {
+    "000": 329184,
+    "011": 297205,
+    "101": 312174,
+    "110": 273646,
+    "001": 25050,
+    "010": 23095,
+    "100": 35500,
+    "111": 4146
+  }
+}

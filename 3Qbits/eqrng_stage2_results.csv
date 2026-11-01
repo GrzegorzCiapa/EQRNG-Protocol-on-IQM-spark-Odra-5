@@ -1,0 +1,129 @@
+﻿typ,zbior,test,etykieta,n_bits,p_value,alpha,wynik,uwagi,K_eff,n_sub,proporcja,dolna_granica,wynik_proporcji,p_jednorodnosci,wynik_jednorodnosci
+pojedynczy,S_Q1 surowy,1 Frequency (Monobit),Frequency,1000000,6.4035945e-11,0.01,FAIL,,,,,,,,
+pojedynczy,S_Q1 surowy,2 Block Frequency,BlockFrequency,1000000,0.7369959,0.01,PASS,"M=128, N=7812 (zalecenie NIST: N<100)",,,,,,,
+pojedynczy,S_Q1 surowy,3 Runs,Runs,1000000,0,0.01,FAIL,warunek wstepny czestosci niespelniony -> p=0,,,,,,,
+pojedynczy,S_Q1 surowy,4 Longest Run of Ones,LongestRun,1000000,0.98312972,0.01,PASS,"M=10000, N=100, K=6",,,,,,,
+pojedynczy,S_Q1 surowy,5 Binary Matrix Rank,Rank,1000000,0.33355451,0.01,PASS,N=976,,,,,,,
+pojedynczy,S_Q1 surowy,6 DFT (Spectral),DFT,1000000,0.13233251,0.01,PASS,"N1=475164, N0=475000.0",,,,,,,
+pojedynczy,S_Q1 surowy,7 Non-overlapping Template,NonOverlapping,1000000,0.29723102,0.01,PASS,"m=9, N=8, M=125000",,,,,,,
+pojedynczy,S_Q1 surowy,8 Overlapping Template,Overlapping,1000000,0.16297921,0.01,PASS,"m=9, M=1032, N=968",,,,,,,
+pojedynczy,S_Q1 surowy,9 Serial,Serial-p1,1000000,0.0015892987,0.01,FAIL,m=8,,,,,,,
+pojedynczy,S_Q1 surowy,9 Serial,Serial-p2,1000000,0.37127323,0.01,PASS,m=8,,,,,,,
+pojedynczy,S_Q1 surowy,10 Approximate Entropy,ApEn,1000000,0.0032461558,0.01,FAIL,m=8,,,,,,,
+pojedynczy,S_Q1 surowy,11 Cumulative Sums,Cusum-F,1000000,3.8658896e-11,0.01,FAIL,"zF=6711, zB=6645",,,,,,,
+pojedynczy,S_Q1 surowy,11 Cumulative Sums,Cusum-B,1000000,6.0643471e-11,0.01,FAIL,"zF=6711, zB=6645",,,,,,,
+pojedynczy,S_Q1 surowy,12 Random Excursions Variant,RandExcVar-min,1000000,0.022295571,0.01,N/D,J=319 (< 500: test nie ma zastosowania wg NIST),,,,,,,
+pojedynczy,S_Q2 surowy,1 Frequency (Monobit),Frequency,1000000,0,0.01,FAIL,,,,,,,,
+pojedynczy,S_Q2 surowy,2 Block Frequency,BlockFrequency,1000000,3.3952629e-115,0.01,FAIL,"M=128, N=7812 (zalecenie NIST: N<100)",,,,,,,
+pojedynczy,S_Q2 surowy,3 Runs,Runs,1000000,0,0.01,FAIL,warunek wstepny czestosci niespelniony -> p=0,,,,,,,
+pojedynczy,S_Q2 surowy,4 Longest Run of Ones,LongestRun,1000000,7.4414773e-12,0.01,FAIL,"M=10000, N=100, K=6",,,,,,,
+pojedynczy,S_Q2 surowy,5 Binary Matrix Rank,Rank,1000000,0.59235928,0.01,PASS,N=976,,,,,,,
+pojedynczy,S_Q2 surowy,6 DFT (Spectral),DFT,1000000,0.0011600428,0.01,FAIL,"N1=475354, N0=475000.0",,,,,,,
+pojedynczy,S_Q2 surowy,7 Non-overlapping Template,NonOverlapping,1000000,4.8352526e-113,0.01,FAIL,"m=9, N=8, M=125000",,,,,,,
+pojedynczy,S_Q2 surowy,8 Overlapping Template,Overlapping,1000000,2.9045625e-33,0.01,FAIL,"m=9, M=1032, N=968",,,,,,,
+pojedynczy,S_Q2 surowy,9 Serial,Serial-p1,1000000,0,0.01,FAIL,m=8,,,,,,,
+pojedynczy,S_Q2 surowy,9 Serial,Serial-p2,1000000,0.8378058,0.01,PASS,m=8,,,,,,,
+pojedynczy,S_Q2 surowy,10 Approximate Entropy,ApEn,1000000,0,0.01,FAIL,m=8,,,,,,,
+pojedynczy,S_Q2 surowy,11 Cumulative Sums,Cusum-F,1000000,0,0.01,FAIL,"zF=57746, zB=57744",,,,,,,
+pojedynczy,S_Q2 surowy,11 Cumulative Sums,Cusum-B,1000000,0,0.01,FAIL,"zF=57746, zB=57744",,,,,,,
+pojedynczy,S_Q2 surowy,12 Random Excursions Variant,RandExcVar-min,1000000,0.039591763,0.01,N/D,J=1 (< 500: test nie ma zastosowania wg NIST),,,,,,,
+pojedynczy,S_Q1 Von Neumann,1 Frequency (Monobit),Frequency,302685,0.6352144,0.01,PASS,,,,,,,,
+pojedynczy,S_Q1 Von Neumann,2 Block Frequency,BlockFrequency,302685,0.16957934,0.01,PASS,"M=128, N=2364 (zalecenie NIST: N<100)",,,,,,,
+pojedynczy,S_Q1 Von Neumann,3 Runs,Runs,302685,0.59210298,0.01,PASS,,,,,,,,
+pojedynczy,S_Q1 Von Neumann,4 Longest Run of Ones,LongestRun,302685,0.22464347,0.01,PASS,"M=128, N=2364, K=5",,,,,,,
+pojedynczy,S_Q1 Von Neumann,5 Binary Matrix Rank,Rank,302685,0.023631031,0.01,PASS,N=295,,,,,,,
+pojedynczy,S_Q1 Von Neumann,6 DFT (Spectral),DFT,302685,0.63928422,0.01,PASS,"N1=143803, N0=143774.9",,,,,,,
+pojedynczy,S_Q1 Von Neumann,7 Non-overlapping Template,NonOverlapping,302685,0.37729451,0.01,PASS,"m=9, N=8, M=37835",,,,,,,
+pojedynczy,S_Q1 Von Neumann,8 Overlapping Template,Overlapping,302685,0.78898958,0.01,PASS,"m=9, M=1032, N=293",,,,,,,
+pojedynczy,S_Q1 Von Neumann,9 Serial,Serial-p1,302685,0.77992767,0.01,PASS,m=8,,,,,,,
+pojedynczy,S_Q1 Von Neumann,9 Serial,Serial-p2,302685,0.15804307,0.01,PASS,m=8,,,,,,,
+pojedynczy,S_Q1 Von Neumann,10 Approximate Entropy,ApEn,302685,0.35338994,0.01,PASS,m=8,,,,,,,
+pojedynczy,S_Q1 Von Neumann,11 Cumulative Sums,Cusum-F,302685,0.96448198,0.01,PASS,"zF=323, zB=421",,,,,,,
+pojedynczy,S_Q1 Von Neumann,11 Cumulative Sums,Cusum-B,302685,0.84515015,0.01,PASS,"zF=323, zB=421",,,,,,,
+pojedynczy,S_Q1 Von Neumann,12 Random Excursions Variant,RandExcVar-min,302685,0.51478637,0.01,PASS,J=581,,,,,,,
+pojedynczy,S_Q2 Von Neumann,1 Frequency (Monobit),Frequency,302196,0.16349052,0.01,PASS,,,,,,,,
+pojedynczy,S_Q2 Von Neumann,2 Block Frequency,BlockFrequency,302196,0.11294391,0.01,PASS,"M=128, N=2360 (zalecenie NIST: N<100)",,,,,,,
+pojedynczy,S_Q2 Von Neumann,3 Runs,Runs,302196,0.5008353,0.01,PASS,,,,,,,,
+pojedynczy,S_Q2 Von Neumann,4 Longest Run of Ones,LongestRun,302196,0.54768635,0.01,PASS,"M=128, N=2360, K=5",,,,,,,
+pojedynczy,S_Q2 Von Neumann,5 Binary Matrix Rank,Rank,302196,0.7363836,0.01,PASS,N=295,,,,,,,
+pojedynczy,S_Q2 Von Neumann,6 DFT (Spectral),DFT,302196,0.97469772,0.01,PASS,"N1=143545, N0=143543.1",,,,,,,
+pojedynczy,S_Q2 Von Neumann,7 Non-overlapping Template,NonOverlapping,302196,0.97603832,0.01,PASS,"m=9, N=8, M=37774",,,,,,,
+pojedynczy,S_Q2 Von Neumann,8 Overlapping Template,Overlapping,302196,0.93967639,0.01,PASS,"m=9, M=1032, N=292",,,,,,,
+pojedynczy,S_Q2 Von Neumann,9 Serial,Serial-p1,302196,0.57260525,0.01,PASS,m=8,,,,,,,
+pojedynczy,S_Q2 Von Neumann,9 Serial,Serial-p2,302196,0.64619051,0.01,PASS,m=8,,,,,,,
+pojedynczy,S_Q2 Von Neumann,10 Approximate Entropy,ApEn,302196,0.7385828,0.01,PASS,m=8,,,,,,,
+pojedynczy,S_Q2 Von Neumann,11 Cumulative Sums,Cusum-F,302196,0.18558521,0.01,PASS,"zF=924, zB=775",,,,,,,
+pojedynczy,S_Q2 Von Neumann,11 Cumulative Sums,Cusum-B,302196,0.31715094,0.01,PASS,"zF=924, zB=775",,,,,,,
+pojedynczy,S_Q2 Von Neumann,12 Random Excursions Variant,RandExcVar-min,302196,0.00497285,0.01,N/D,J=28 (< 500: test nie ma zastosowania wg NIST),,,,,,,
+pojedynczy,S_Q1 XOR-folding,1 Frequency (Monobit),Frequency,606104,0.34577998,0.01,PASS,,,,,,,,
+pojedynczy,S_Q1 XOR-folding,2 Block Frequency,BlockFrequency,606104,0.99383072,0.01,PASS,"M=128, N=4735 (zalecenie NIST: N<100)",,,,,,,
+pojedynczy,S_Q1 XOR-folding,3 Runs,Runs,606104,0.37484616,0.01,PASS,,,,,,,,
+pojedynczy,S_Q1 XOR-folding,4 Longest Run of Ones,LongestRun,606104,0.19673182,0.01,PASS,"M=128, N=4735, K=5",,,,,,,
+pojedynczy,S_Q1 XOR-folding,5 Binary Matrix Rank,Rank,606104,0.29736124,0.01,PASS,N=591,,,,,,,
+pojedynczy,S_Q1 XOR-folding,6 DFT (Spectral),DFT,606104,0.09986897,0.01,PASS,"N1=288039, N0=287899.4",,,,,,,
+pojedynczy,S_Q1 XOR-folding,7 Non-overlapping Template,NonOverlapping,606104,0.46207336,0.01,PASS,"m=9, N=8, M=75763",,,,,,,
+pojedynczy,S_Q1 XOR-folding,8 Overlapping Template,Overlapping,606104,0.88191948,0.01,PASS,"m=9, M=1032, N=587",,,,,,,
+pojedynczy,S_Q1 XOR-folding,9 Serial,Serial-p1,606104,0.82598556,0.01,PASS,m=8,,,,,,,
+pojedynczy,S_Q1 XOR-folding,9 Serial,Serial-p2,606104,0.72925452,0.01,PASS,m=8,,,,,,,
+pojedynczy,S_Q1 XOR-folding,10 Approximate Entropy,ApEn,606104,0.47141649,0.01,PASS,m=8,,,,,,,
+pojedynczy,S_Q1 XOR-folding,11 Cumulative Sums,Cusum-F,606104,0.51633649,0.01,PASS,"zF=879, zB=862",,,,,,,
+pojedynczy,S_Q1 XOR-folding,11 Cumulative Sums,Cusum-B,606104,0.53460853,0.01,PASS,"zF=879, zB=862",,,,,,,
+pojedynczy,S_Q1 XOR-folding,12 Random Excursions Variant,RandExcVar-min,606104,0.0043198376,0.01,N/D,J=364 (< 500: test nie ma zastosowania wg NIST),,,,,,,
+pojedynczy,S_Q2 XOR-folding,1 Frequency (Monobit),Frequency,606104,0.027876138,0.01,PASS,,,,,,,,
+pojedynczy,S_Q2 XOR-folding,2 Block Frequency,BlockFrequency,606104,0.58086623,0.01,PASS,"M=128, N=4735 (zalecenie NIST: N<100)",,,,,,,
+pojedynczy,S_Q2 XOR-folding,3 Runs,Runs,606104,0.38581047,0.01,PASS,,,,,,,,
+pojedynczy,S_Q2 XOR-folding,4 Longest Run of Ones,LongestRun,606104,0.064508601,0.01,PASS,"M=128, N=4735, K=5",,,,,,,
+pojedynczy,S_Q2 XOR-folding,5 Binary Matrix Rank,Rank,606104,0.90183745,0.01,PASS,N=591,,,,,,,
+pojedynczy,S_Q2 XOR-folding,6 DFT (Spectral),DFT,606104,0.97555134,0.01,PASS,"N1=287902, N0=287899.4",,,,,,,
+pojedynczy,S_Q2 XOR-folding,7 Non-overlapping Template,NonOverlapping,606104,0.29752614,0.01,PASS,"m=9, N=8, M=75763",,,,,,,
+pojedynczy,S_Q2 XOR-folding,8 Overlapping Template,Overlapping,606104,0.98626587,0.01,PASS,"m=9, M=1032, N=587",,,,,,,
+pojedynczy,S_Q2 XOR-folding,9 Serial,Serial-p1,606104,0.002697208,0.01,FAIL,m=8,,,,,,,
+pojedynczy,S_Q2 XOR-folding,9 Serial,Serial-p2,606104,0.20304673,0.01,PASS,m=8,,,,,,,
+pojedynczy,S_Q2 XOR-folding,10 Approximate Entropy,ApEn,606104,0.090272928,0.01,PASS,m=8,,,,,,,
+pojedynczy,S_Q2 XOR-folding,11 Cumulative Sums,Cusum-F,606104,0.039880228,0.01,PASS,"zF=1812, zB=2011",,,,,,,
+pojedynczy,S_Q2 XOR-folding,11 Cumulative Sums,Cusum-B,606104,0.019584307,0.01,PASS,"zF=1812, zB=2011",,,,,,,
+pojedynczy,S_Q2 XOR-folding,12 Random Excursions Variant,RandExcVar-min,606104,0.23013934,0.01,N/D,J=200 (< 500: test nie ma zastosowania wg NIST),,,,,,,
+wielosekwencyjny,S_Q1 surowy,1 Frequency (Monobit),Frequency,,,0.01,,,100,12000,0.9800,0.9602,PASS,0.23681,PASS
+wielosekwencyjny,S_Q1 surowy,2 Block Frequency,BlockFrequency,,,0.01,,,100,12000,0.9800,0.9602,PASS,0.514124,PASS
+wielosekwencyjny,S_Q1 surowy,3 Runs,Runs,,,0.01,,,100,12000,0.9800,0.9602,PASS,0.678686,PASS
+wielosekwencyjny,S_Q1 surowy,4 Longest Run of Ones,LongestRun,,,0.01,,,100,12000,0.9800,0.9602,PASS,0.883171,PASS
+wielosekwencyjny,S_Q1 surowy,6 DFT (Spectral),DFT,,,0.01,,,100,12000,0.9900,0.9602,PASS,0.419021,PASS
+wielosekwencyjny,S_Q1 surowy,7 Non-overlapping Template,NonOverlapping,,,0.01,,,100,12000,1.0000,0.9602,PASS,0.224821,PASS
+wielosekwencyjny,S_Q1 surowy,9 Serial,Serial-p1,,,0.01,,,100,12000,0.9800,0.9602,PASS,0.23681,PASS
+wielosekwencyjny,S_Q1 surowy,9 Serial,Serial-p2,,,0.01,,,100,12000,0.9800,0.9602,PASS,0.00297118,PASS
+wielosekwencyjny,S_Q1 surowy,10 Approximate Entropy,ApEn,,,0.01,,,100,12000,0.9800,0.9602,PASS,0.191687,PASS
+wielosekwencyjny,S_Q1 surowy,11 Cumulative Sums,Cusum-F,,,0.01,,,100,12000,0.9900,0.9602,PASS,0.455937,PASS
+wielosekwencyjny,S_Q1 surowy,11 Cumulative Sums,Cusum-B,,,0.01,,,100,12000,0.9800,0.9602,PASS,0.798139,PASS
+wielosekwencyjny,S_Q2 surowy,1 Frequency (Monobit),Frequency,,,0.01,,,100,12000,0.0000,0.9602,FAIL,6.1868e-188,FAIL
+wielosekwencyjny,S_Q2 surowy,2 Block Frequency,BlockFrequency,,,0.01,,,100,12000,0.3600,0.9602,FAIL,1.22452e-151,FAIL
+wielosekwencyjny,S_Q2 surowy,3 Runs,Runs,,,0.01,,,100,12000,0.0200,0.9602,FAIL,1.90186e-179,FAIL
+wielosekwencyjny,S_Q2 surowy,4 Longest Run of Ones,LongestRun,,,0.01,,,100,12000,0.6700,0.9602,FAIL,1.34498e-63,FAIL
+wielosekwencyjny,S_Q2 surowy,6 DFT (Spectral),DFT,,,0.01,,,100,12000,0.9800,0.9602,PASS,0.171867,PASS
+wielosekwencyjny,S_Q2 surowy,7 Non-overlapping Template,NonOverlapping,,,0.01,,,100,12000,0.7000,0.9602,FAIL,8.2922e-66,FAIL
+wielosekwencyjny,S_Q2 surowy,9 Serial,Serial-p1,,,0.01,,,100,12000,0.4400,0.9602,FAIL,3.18286e-114,FAIL
+wielosekwencyjny,S_Q2 surowy,9 Serial,Serial-p2,,,0.01,,,100,12000,1.0000,0.9602,PASS,0.319084,PASS
+wielosekwencyjny,S_Q2 surowy,10 Approximate Entropy,ApEn,,,0.01,,,100,12000,0.4400,0.9602,FAIL,2.12975e-127,FAIL
+wielosekwencyjny,S_Q2 surowy,11 Cumulative Sums,Cusum-F,,,0.01,,,100,12000,0.0000,0.9602,FAIL,6.1868e-188,FAIL
+wielosekwencyjny,S_Q2 surowy,11 Cumulative Sums,Cusum-B,,,0.01,,,100,12000,0.0000,0.9602,FAIL,6.1868e-188,FAIL
+wielosekwencyjny,S_Q1 XOR-folding,1 Frequency (Monobit),Frequency,,,0.01,,,100,6000,1.0000,0.9602,PASS,0.224821,PASS
+wielosekwencyjny,S_Q1 XOR-folding,2 Block Frequency,BlockFrequency,,,0.01,,,100,6000,1.0000,0.9602,PASS,0.437274,PASS
+wielosekwencyjny,S_Q1 XOR-folding,3 Runs,Runs,,,0.01,,,100,6000,1.0000,0.9602,PASS,0.883171,PASS
+wielosekwencyjny,S_Q1 XOR-folding,4 Longest Run of Ones,LongestRun,,,0.01,,,100,6000,1.0000,0.9602,PASS,0.048716,PASS
+wielosekwencyjny,S_Q1 XOR-folding,6 DFT (Spectral),DFT,,,0.01,,,100,6000,1.0000,0.9602,PASS,0.23681,PASS
+wielosekwencyjny,S_Q1 XOR-folding,7 Non-overlapping Template,NonOverlapping,,,0.01,,,100,6000,0.9700,0.9602,PASS,0.00297118,PASS
+wielosekwencyjny,S_Q1 XOR-folding,9 Serial,Serial-p1,,,0.01,,,100,6000,0.9900,0.9602,PASS,0.867692,PASS
+wielosekwencyjny,S_Q1 XOR-folding,9 Serial,Serial-p2,,,0.01,,,100,6000,0.9900,0.9602,PASS,0.964295,PASS
+wielosekwencyjny,S_Q1 XOR-folding,10 Approximate Entropy,ApEn,,,0.01,,,100,6000,0.9900,0.9602,PASS,0.419021,PASS
+wielosekwencyjny,S_Q1 XOR-folding,11 Cumulative Sums,Cusum-F,,,0.01,,,100,6000,0.9900,0.9602,PASS,0.0757193,PASS
+wielosekwencyjny,S_Q1 XOR-folding,11 Cumulative Sums,Cusum-B,,,0.01,,,100,6000,1.0000,0.9602,PASS,0.964295,PASS
+wielosekwencyjny,S_Q2 XOR-folding,1 Frequency (Monobit),Frequency,,,0.01,,,100,6000,0.9800,0.9602,PASS,0.0965782,PASS
+wielosekwencyjny,S_Q2 XOR-folding,2 Block Frequency,BlockFrequency,,,0.01,,,100,6000,1.0000,0.9602,PASS,0.779188,PASS
+wielosekwencyjny,S_Q2 XOR-folding,3 Runs,Runs,,,0.01,,,100,6000,1.0000,0.9602,PASS,0.401199,PASS
+wielosekwencyjny,S_Q2 XOR-folding,4 Longest Run of Ones,LongestRun,,,0.01,,,100,6000,1.0000,0.9602,PASS,0.0401083,PASS
+wielosekwencyjny,S_Q2 XOR-folding,6 DFT (Spectral),DFT,,,0.01,,,100,6000,1.0000,0.9602,PASS,0.162606,PASS
+wielosekwencyjny,S_Q2 XOR-folding,7 Non-overlapping Template,NonOverlapping,,,0.01,,,100,6000,0.9800,0.9602,PASS,0.000648041,PASS
+wielosekwencyjny,S_Q2 XOR-folding,9 Serial,Serial-p1,,,0.01,,,100,6000,1.0000,0.9602,PASS,0.137282,PASS
+wielosekwencyjny,S_Q2 XOR-folding,9 Serial,Serial-p2,,,0.01,,,100,6000,1.0000,0.9602,PASS,0.401199,PASS
+wielosekwencyjny,S_Q2 XOR-folding,10 Approximate Entropy,ApEn,,,0.01,,,100,6000,0.9700,0.9602,PASS,0.181557,PASS
+wielosekwencyjny,S_Q2 XOR-folding,11 Cumulative Sums,Cusum-F,,,0.01,,,100,6000,0.9800,0.9602,PASS,0.0519416,PASS
+wielosekwencyjny,S_Q2 XOR-folding,11 Cumulative Sums,Cusum-B,,,0.01,,,100,6000,0.9900,0.9602,PASS,0.137282,PASS

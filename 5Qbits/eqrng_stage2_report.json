@@ -1,0 +1,2569 @@
+{
+  "meta": {
+    "generated": "2026-11-01T22:24:12",
+    "alpha": 0.01,
+    "runtime_s": 6.9
+  },
+  "module1": {
+    "n_bits": 1144220,
+    "checkpoint": {
+      "present": true,
+      "numeric_keys": [
+        "completed_batches",
+        "total_batches",
+        "batch_shots",
+        "shots_processed",
+        "valid_shots",
+        "error_shots",
+        "counts.00000",
+        "counts.00011",
+        "counts.00101",
+        "counts.00110",
+        "counts.01001",
+        "counts.01010",
+        "counts.01100",
+        "counts.01111",
+        "counts.10001",
+        "counts.10010",
+        "counts.10100",
+        "counts.10111",
+        "counts.11000",
+        "counts.11011",
+        "counts.11101",
+        "counts.11110",
+        "counts.00001",
+        "counts.00010",
+        "counts.00100",
+        "counts.00111",
+        "counts.01000",
+        "counts.01011",
+        "counts.01101",
+        "counts.01110",
+        "counts.10000",
+        "counts.10011",
+        "counts.10101",
+        "counts.10110",
+        "counts.11001",
+        "counts.11010",
+        "counts.11100",
+        "counts.11111"
+      ],
+      "valid_matches_sq1_length": true,
+      "qber_recomputed": 0.11983076923076919
+    },
+    "xor_mismatches": {
+      "S_Q1 ^ S_Q2 ^ S_Q3 ^ S_Q4 == S_Q5": 0,
+      "S_Q1 ^ S_Q2 ^ S_Q3 ^ S_Q5 == S_Q4": 0,
+      "S_Q1 ^ S_Q2 ^ S_Q4 ^ S_Q5 == S_Q3": 0,
+      "S_Q1 ^ S_Q3 ^ S_Q4 ^ S_Q5 == S_Q2": 0,
+      "S_Q2 ^ S_Q3 ^ S_Q4 ^ S_Q5 == S_Q1": 0
+    },
+    "pairs": {
+      "S_Q1 vs S_Q2": {
+        "hamming_norm": 0.5139920644631277,
+        "pearson_r": -0.02917530884386595,
+        "mutual_info_bits": 0.0006141257280679272,
+        "G_stat": 974.1420336995063,
+        "independence_p_value": 7.49772181302445e-214
+      },
+      "S_Q1 vs S_Q3": {
+        "hamming_norm": 0.5007402422611036,
+        "pearson_r": -0.0022812565126517463,
+        "mutual_info_bits": 3.7539996046934013e-06,
+        "G_stat": 5.954690777942277,
+        "independence_p_value": 0.014678177213433546
+      },
+      "S_Q1 vs S_Q4": {
+        "hamming_norm": 0.5016168219398367,
+        "pearson_r": -0.0035088072070049115,
+        "mutual_info_bits": 8.881064136500878e-06,
+        "G_stat": 14.087372477561791,
+        "independence_p_value": 0.00017451142943435832
+      },
+      "S_Q1 vs S_Q5": {
+        "hamming_norm": 0.5019690269353796,
+        "pearson_r": -0.003930326151430099,
+        "mutual_info_bits": 1.1143017843295768e-05,
+        "G_stat": 17.675341656126463,
+        "independence_p_value": 2.6200112802941375e-05
+      },
+      "S_Q2 vs S_Q3": {
+        "hamming_norm": 0.4933675342154481,
+        "pearson_r": 0.009805743987326407,
+        "mutual_info_bits": 6.935741341129948e-05,
+        "G_stat": 110.01651398839876,
+        "independence_p_value": 9.717779341389572e-26
+      },
+      "S_Q2 vs S_Q4": {
+        "hamming_norm": 0.4975354389890056,
+        "pearson_r": 0.003737214011313835,
+        "mutual_info_bits": 1.0074857333769189e-05,
+        "G_stat": 15.980997968000388,
+        "independence_p_value": 6.398146507721773e-05
+      },
+      "S_Q2 vs S_Q5": {
+        "hamming_norm": 0.5032782157277447,
+        "pearson_r": -0.006536375418228439,
+        "mutual_info_bits": 3.081921239718802e-05,
+        "G_stat": 48.886227802351684,
+        "independence_p_value": 2.712487000538489e-12
+      },
+      "S_Q3 vs S_Q4": {
+        "hamming_norm": 0.49761322123367885,
+        "pearson_r": 0.0039202501217399585,
+        "mutual_info_bits": 1.1085907992973648e-05,
+        "G_stat": 17.584752541887447,
+        "independence_p_value": 2.7478272005977316e-05
+      },
+      "S_Q3 vs S_Q5": {
+        "hamming_norm": 0.5030868189683803,
+        "pearson_r": -0.0061555600727340445,
+        "mutual_info_bits": 2.7332689603862e-05,
+        "G_stat": 43.355815625816675,
+        "independence_p_value": 4.56377822878258e-11
+      },
+      "S_Q4 vs S_Q5": {
+        "hamming_norm": 0.49735452972330496,
+        "pearson_r": 0.005300583386510783,
+        "mutual_info_bits": 2.0267209120796445e-05,
+        "G_stat": 32.14836866134696,
+        "independence_p_value": 1.428365778511917e-08
+      }
+    },
+    "sq5_erased_from_ram": true,
+    "sq5_file_removed": false
+  },
+  "module2": {
+    "1": {
+      "S_Q1": {
+        "m": 1,
+        "n_blocks": 1144220,
+        "H1_per_bit": 0.9998162846452174,
+        "Hinf_per_bit": 0.9771585713493726,
+        "rmse_vs_ideal": 0.007979234762545667,
+        "max_abs_dev": 0.007979234762545695,
+        "chi2": 291.40165352816786,
+        "chi2_p_value": 2.4612242997018547e-65,
+        "p": [
+          0.5079792347625457,
+          0.49202076523745436
+        ]
+      },
+      "S_Q2": {
+        "m": 1,
+        "n_blocks": 1144220,
+        "H1_per_bit": 0.9964691674292221,
+        "Hinf_per_bit": 0.9024780551153986,
+        "rmse_vs_ideal": 0.034967051790739556,
+        "max_abs_dev": 0.034967051790739556,
+        "chi2": 5596.126968589961,
+        "chi2_p_value": 0.0,
+        "p": [
+          0.5349670517907396,
+          0.46503294820926044
+        ]
+      },
+      "rmse_Q1_vs_Q2": 0.02698781702819389
+    },
+    "2": {
+      "S_Q1": {
+        "m": 2,
+        "n_blocks": 572110,
+        "H1_per_bit": 0.9998162301522577,
+        "Hinf_per_bit": 0.9769090517938617,
+        "rmse_vs_ideal": 0.005644373585225553,
+        "max_abs_dev": 0.008132177378476158,
+        "chi2": 291.6292111656842,
+        "chi2_p_value": 6.447013852939406e-63,
+        "p": [
+          0.25813217737847616,
+          0.24990124276799916,
+          0.24979287200013983,
+          0.24217370785338485
+        ]
+      },
+      "S_Q2": {
+        "m": 2,
+        "n_blocks": 572110,
+        "H1_per_bit": 0.9964660169627628,
+        "Hinf_per_bit": 0.9041233108838245,
+        "rmse_vs_ideal": 0.024734377178726855,
+        "max_abs_dev": 0.035537746237611634,
+        "chi2": 5600.1734701368605,
+        "chi2_p_value": 0.0,
+        "p": [
+          0.28553774623761163,
+          0.24894688084459282,
+          0.24991173026166297,
+          0.21560364265613255
+        ]
+      },
+      "rmse_Q1_vs_Q2": 0.019091611397720167
+    },
+    "3": {
+      "S_Q1": {
+        "m": 3,
+        "n_blocks": 381406,
+        "H1_per_bit": 0.9998146436066909,
+        "Hinf_per_bit": 0.9782936471770279,
+        "rmse_vs_ideal": 0.003468481193129771,
+        "max_abs_dev": 0.006118807779636401,
+        "chi2": 293.6609387371984,
+        "chi2_p_value": 1.3652381085122607e-59,
+        "p": [
+          0.13077140894479897,
+          0.12676780124067266,
+          0.12701950152855487,
+          0.12270389034257458,
+          0.12748619581233647,
+          0.12283236236451446,
+          0.12353764754618438,
+          0.1188811922203636
+        ]
+      },
+      "S_Q2": {
+        "m": 3,
+        "n_blocks": 381406,
+        "H1_per_bit": 0.996462453618884,
+        "Hinf_per_bit": 0.9028657182217802,
+        "rmse_vs_ideal": 0.01517818787526723,
+        "max_abs_dev": 0.027978715594405956,
+        "chi2": 5623.5083349501565,
+        "chi2_p_value": 0.0,
+        "p": [
+          0.15297871559440596,
+          0.13282171753983943,
+          0.13345096825954494,
+          0.11719794654515137,
+          0.13266440485991307,
+          0.1156903666958569,
+          0.11520269738808514,
+          0.09999318311720319
+        ]
+      },
+      "rmse_Q1_vs_Q2": 0.01175555074044708
+    },
+    "4": {
+      "S_Q1": {
+        "m": 4,
+        "n_blocks": 286055,
+        "H1_per_bit": 0.9998103956706174,
+        "Hinf_per_bit": 0.974673289223961,
+        "rmse_vs_ideal": 0.0020277452036807845,
+        "max_abs_dev": 0.0045465469927111896,
+        "chi2": 301.10382618727164,
+        "chi2_p_value": 3.296067245893751e-55,
+        "p": [
+          0.06704654699271119,
+          0.06460645680026568,
+          0.06455052350072539,
+          0.06237611648109629,
+          0.06395972802433099,
+          0.06286203702085263,
+          0.06219782908881159,
+          0.06064568002656832,
+          0.06377794480082502,
+          0.06278163290276345,
+          0.062442537274300394,
+          0.06056527590847914,
+          0.06290049116428659,
+          0.05988708465155302,
+          0.060827463250074286,
+          0.058572652112356016
+        ]
+      },
+      "S_Q2": {
+        "m": 4,
+        "n_blocks": 286055,
+        "H1_per_bit": 0.9964578646224498,
+        "Hinf_per_bit": 0.9036068600820945,
+        "rmse_vs_ideal": 0.008764563659298466,
+        "max_abs_dev": 0.019148634003950296,
+        "chi2": 5625.357245984164,
+        "chi2_p_value": 0.0,
+        "p": [
+          0.0816486340039503,
+          0.0700774326615511,
+          0.07099683627274475,
+          0.061732883536382864,
+          0.07136040271975669,
+          0.06201255003408435,
+          0.06237961231231756,
+          0.053545646816171716,
+          0.07116114034014438,
+          0.06290398699550785,
+          0.062260754050794426,
+          0.05395116323783888,
+          0.06244952893674294,
+          0.05360158011571201,
+          0.05390921326318365,
+          0.04600863470311654
+        ]
+      },
+      "rmse_Q1_vs_Q2": 0.0067767529039972334
+    },
+    "8": {
+      "S_Q1": {
+        "m": 8,
+        "n_blocks": 143027,
+        "H1_per_bit": 0.9996837199911295,
+        "Hinf_per_bit": 0.9740965802978827,
+        "rmse_vs_ideal": 0.00023119851185471584,
+        "max_abs_dev": 0.0006033880403699997,
+        "chi2": 501.03495843442164,
+        "chi2_p_value": 3.387956479591676e-18
+      },
+      "S_Q2": {
+        "m": 8,
+        "n_blocks": 143027,
+        "H1_per_bit": 0.9962917345051479,
+        "Hinf_per_bit": 0.902191921489991,
+        "rmse_vs_ideal": 0.000796110208522744,
+        "max_abs_dev": 0.0028127610958070858,
+        "chi2": 5940.791983331819,
+        "chi2_p_value": 0.0
+      },
+      "rmse_Q1_vs_Q2": 0.0006417235785601235
+    }
+  },
+  "module3_table": [
+    {
+      "length": 1144220,
+      "frac_zeros": 0.5079792347625457,
+      "H_shannon": 0.9998162846452174,
+      "H_min": 0.9771585713493726,
+      "H8_shannon": 0.9996837199911295,
+      "H8_min": 0.9740965802978827,
+      "sequence": "S_Q1",
+      "method": "surowy"
+    },
+    {
+      "length": 285880,
+      "frac_zeros": 0.5001084371064782,
+      "H_shannon": 0.9999999660718344,
+      "H_min": 0.9996871505717316,
+      "H8_shannon": 0.9993395459098445,
+      "H8_min": 0.965521341442573,
+      "sequence": "S_Q1",
+      "method": "von Neumann"
+    },
+    {
+      "length": 572110,
+      "frac_zeros": 0.500305885231861,
+      "H_shannon": 0.9999997300262238,
+      "H_min": 0.9991176716495277,
+      "H8_shannon": 0.9996733868288913,
+      "H8_min": 0.9732584878627244,
+      "sequence": "S_Q1",
+      "method": "XOR-folding 2:1"
+    },
+    {
+      "length": 571904,
+      "frac_zeros": 0.5005140722918532,
+      "H_shannon": 0.9999992374769018,
+      "H_min": 0.9985174629084806,
+      "H8_shannon": 0.999671652818839,
+      "H8_min": 0.9698864070296874,
+      "sequence": "S_Q1",
+      "method": "SHA-256 (512->256)"
+    },
+    {
+      "length": 1144220,
+      "frac_zeros": 0.5349670517907396,
+      "H_shannon": 0.9964691674292221,
+      "H_min": 0.9024780551153986,
+      "H8_shannon": 0.9962917345051479,
+      "H8_min": 0.902191921489991,
+      "sequence": "S_Q2",
+      "method": "surowy"
+    },
+    {
+      "length": 285402,
+      "frac_zeros": 0.4990329430067063,
+      "H_shannon": 0.9999973015837398,
+      "H_min": 0.9972123582832926,
+      "H8_shannon": 0.9993272010392464,
+      "H8_min": 0.9641543591390983,
+      "sequence": "S_Q2",
+      "method": "von Neumann"
+    },
+    {
+      "length": 572110,
+      "frac_zeros": 0.5011413888937442,
+      "H_shannon": 0.9999962410011185,
+      "H_min": 0.9967104010912978,
+      "H8_shannon": 0.9996725713864796,
+      "H8_min": 0.9760631615026939,
+      "sequence": "S_Q2",
+      "method": "XOR-folding 2:1"
+    },
+    {
+      "length": 571904,
+      "frac_zeros": 0.49957335496866606,
+      "H_shannon": 0.999999474783971,
+      "H_min": 0.9987694875755312,
+      "H8_shannon": 0.9996861839252705,
+      "H8_min": 0.9666370059630693,
+      "sequence": "S_Q2",
+      "method": "SHA-256 (512->256)"
+    }
+  ],
+  "nist_single": {
+    "S_Q1 surowy": {
+      "n_bits": 1000000,
+      "results": {
+        "1 Frequency (Monobit)": {
+          "applicable": true,
+          "ps": {
+            "Frequency": 3.21004537032918e-67
+          },
+          "note": "",
+          "extra": {}
+        },
+        "2 Block Frequency": {
+          "applicable": true,
+          "ps": {
+            "BlockFrequency": 0.1378398697860144
+          },
+          "note": "M=128, N=7812 (zalecenie NIST: N<100)",
+          "extra": {}
+        },
+        "3 Runs": {
+          "applicable": true,
+          "ps": {
+            "Runs": 0.0
+          },
+          "note": "warunek wstepny czestosci niespelniony -> p=0",
+          "extra": {}
+        },
+        "4 Longest Run of Ones": {
+          "applicable": true,
+          "ps": {
+            "LongestRun": 0.17318459782056722
+          },
+          "note": "M=10000, N=100, K=6",
+          "extra": {}
+        },
+        "5 Binary Matrix Rank": {
+          "applicable": true,
+          "ps": {
+            "Rank": 0.4909955062895237
+          },
+          "note": "N=976",
+          "extra": {
+            "F32": 298,
+            "F31": 547,
+            "Frest": 131
+          }
+        },
+        "6 DFT (Spectral)": {
+          "applicable": true,
+          "ps": {
+            "DFT": 0.6137592948377752
+          },
+          "note": "N1=474945, N0=475000.0",
+          "extra": {}
+        },
+        "7 Non-overlapping Template": {
+          "applicable": true,
+          "ps": {
+            "NonOverlapping": 5.778227924114289e-07
+          },
+          "note": "m=9, N=8, M=125000",
+          "extra": {}
+        },
+        "8 Overlapping Template": {
+          "applicable": true,
+          "ps": {
+            "Overlapping": 0.0029956936512624452
+          },
+          "note": "m=9, M=1032, N=968",
+          "extra": {}
+        },
+        "9 Serial": {
+          "applicable": true,
+          "ps": {
+            "Serial-p1": 1.9711123561281122e-35,
+            "Serial-p2": 0.5772393115521339
+          },
+          "note": "m=8",
+          "extra": {}
+        },
+        "10 Approximate Entropy": {
+          "applicable": true,
+          "ps": {
+            "ApEn": 2.764527196338276e-23
+          },
+          "note": "m=8",
+          "extra": {}
+        },
+        "11 Cumulative Sums": {
+          "applicable": true,
+          "ps": {
+            "Cusum-F": 1.0390871870515695e-67,
+            "Cusum-B": 1.4211380723197316e-67
+          },
+          "note": "zF=17347, zB=17329",
+          "extra": {}
+        },
+        "12 Random Excursions Variant": {
+          "applicable": false,
+          "ps": {
+            "RandExcVar-min": 0.0324298143728967
+          },
+          "note": "J=7 (< 500: test nie ma zastosowania wg NIST)",
+          "extra": {
+            "J": 7,
+            "per_state": {
+              "-9": 0.0324298143728967,
+              "-8": 0.269547638155166,
+              "-7": 0.4585422862551144,
+              "-6": 0.37539918556594054,
+              "-5": 0.4760334929424296,
+              "-4": 0.7618549862187101,
+              "-3": 0.9048611294504482,
+              "-2": 0.5370939784426416,
+              "-1": 0.28504940740261286,
+              "1": 1.0,
+              "2": 0.8773705560641434,
+              "3": 1.0,
+              "4": 0.9195383508138885,
+              "5": 0.7215797250891103,
+              "6": 0.6870133442333652,
+              "7": 0.6565007277753426,
+              "8": 0.6290631518148918,
+              "9": 0.650014096968383
+            }
+          }
+        }
+      }
+    },
+    "S_Q2 surowy": {
+      "n_bits": 1000000,
+      "results": {
+        "1 Frequency (Monobit)": {
+          "applicable": true,
+          "ps": {
+            "Frequency": 0.0
+          },
+          "note": "",
+          "extra": {}
+        },
+        "2 Block Frequency": {
+          "applicable": true,
+          "ps": {
+            "BlockFrequency": 6.0080879539977956e-235
+          },
+          "note": "M=128, N=7812 (zalecenie NIST: N<100)",
+          "extra": {}
+        },
+        "3 Runs": {
+          "applicable": true,
+          "ps": {
+            "Runs": 0.0
+          },
+          "note": "warunek wstepny czestosci niespelniony -> p=0",
+          "extra": {}
+        },
+        "4 Longest Run of Ones": {
+          "applicable": true,
+          "ps": {
+            "LongestRun": 2.8046247366895327e-22
+          },
+          "note": "M=10000, N=100, K=6",
+          "extra": {}
+        },
+        "5 Binary Matrix Rank": {
+          "applicable": true,
+          "ps": {
+            "Rank": 0.6305274164072787
+          },
+          "note": "N=976",
+          "extra": {
+            "F32": 293,
+            "F31": 549,
+            "Frest": 134
+          }
+        },
+        "6 DFT (Spectral)": {
+          "applicable": true,
+          "ps": {
+            "DFT": 3.58324217104689e-06
+          },
+          "note": "N1=475505, N0=475000.0",
+          "extra": {}
+        },
+        "7 Non-overlapping Template": {
+          "applicable": true,
+          "ps": {
+            "NonOverlapping": 9.337615998115956e-140
+          },
+          "note": "m=9, N=8, M=125000",
+          "extra": {}
+        },
+        "8 Overlapping Template": {
+          "applicable": true,
+          "ps": {
+            "Overlapping": 4.1005094997008203e-47
+          },
+          "note": "m=9, M=1032, N=968",
+          "extra": {}
+        },
+        "9 Serial": {
+          "applicable": true,
+          "ps": {
+            "Serial-p1": 0.0,
+            "Serial-p2": 0.01871759370276675
+          },
+          "note": "m=8",
+          "extra": {}
+        },
+        "10 Approximate Entropy": {
+          "applicable": true,
+          "ps": {
+            "ApEn": 0.0
+          },
+          "note": "m=8",
+          "extra": {}
+        },
+        "11 Cumulative Sums": {
+          "applicable": true,
+          "ps": {
+            "Cusum-F": 0.0,
+            "Cusum-B": 0.0
+          },
+          "note": "zF=70147, zB=70164",
+          "extra": {}
+        },
+        "12 Random Excursions Variant": {
+          "applicable": false,
+          "ps": {
+            "RandExcVar-min": 0.14561009539686703
+          },
+          "note": "J=8 (< 500: test nie ma zastosowania wg NIST)",
+          "extra": {
+            "J": 8,
+            "per_state": {
+              "-9": 0.14561009539686703,
+              "-8": 0.19670560245894686,
+              "-7": 0.4880740931652481,
+              "-6": 0.8210975835519595,
+              "-5": 0.8025873486341526,
+              "-4": 0.776814004155482,
+              "-3": 0.910979292510634,
+              "-2": 1.0,
+              "-1": 1.0,
+              "1": 0.8025873486341526,
+              "2": 0.8852339144732015,
+              "3": 0.8230632737581215,
+              "4": 0.8501067391385259,
+              "5": 0.8025873486341526,
+              "6": 0.7062559621048525,
+              "7": 0.6773916019262776,
+              "8": 0.746885633390364,
+              "9": 0.6712468909747565
+            }
+          }
+        }
+      }
+    },
+    "S_Q1 Von Neumann": {
+      "n_bits": 285880,
+      "results": {
+        "1 Frequency (Monobit)": {
+          "applicable": true,
+          "ps": {
+            "Frequency": 0.9076860216104455
+          },
+          "note": "",
+          "extra": {}
+        },
+        "2 Block Frequency": {
+          "applicable": true,
+          "ps": {
+            "BlockFrequency": 0.4954605933798929
+          },
+          "note": "M=128, N=2233 (zalecenie NIST: N<100)",
+          "extra": {}
+        },
+        "3 Runs": {
+          "applicable": true,
+          "ps": {
+            "Runs": 0.31791187489674955
+          },
+          "note": "",
+          "extra": {}
+        },
+        "4 Longest Run of Ones": {
+          "applicable": true,
+          "ps": {
+            "LongestRun": 0.5248210220615154
+          },
+          "note": "M=128, N=2233, K=5",
+          "extra": {}
+        },
+        "5 Binary Matrix Rank": {
+          "applicable": true,
+          "ps": {
+            "Rank": 0.36719440646074464
+          },
+          "note": "N=279",
+          "extra": {
+            "F32": 70,
+            "F31": 171,
+            "Frest": 38
+          }
+        },
+        "6 DFT (Spectral)": {
+          "applicable": true,
+          "ps": {
+            "DFT": 0.10667610061414468
+          },
+          "note": "N1=135887, N0=135793.0",
+          "extra": {}
+        },
+        "7 Non-overlapping Template": {
+          "applicable": true,
+          "ps": {
+            "NonOverlapping": 0.8412178618179691
+          },
+          "note": "m=9, N=8, M=35735",
+          "extra": {}
+        },
+        "8 Overlapping Template": {
+          "applicable": true,
+          "ps": {
+            "Overlapping": 0.904099044806682
+          },
+          "note": "m=9, M=1032, N=277",
+          "extra": {}
+        },
+        "9 Serial": {
+          "applicable": true,
+          "ps": {
+            "Serial-p1": 0.2770150720733913,
+            "Serial-p2": 0.5682334911368323
+          },
+          "note": "m=8",
+          "extra": {}
+        },
+        "10 Approximate Entropy": {
+          "applicable": true,
+          "ps": {
+            "ApEn": 0.4110510448771089
+          },
+          "note": "m=8",
+          "extra": {}
+        },
+        "11 Cumulative Sums": {
+          "applicable": true,
+          "ps": {
+            "Cusum-F": 0.8453832750719621,
+            "Cusum-B": 0.9319517393920893
+          },
+          "note": "zF=409, zB=347",
+          "extra": {}
+        },
+        "12 Random Excursions Variant": {
+          "applicable": true,
+          "ps": {
+            "RandExcVar-min": 0.12277599762991603
+          },
+          "note": "J=575",
+          "extra": {
+            "J": 575,
+            "per_state": {
+              "-9": 0.6782772258289433,
+              "-8": 0.8849765368924938,
+              "-7": 0.7435587257984981,
+              "-6": 0.3236865759800195,
+              "-5": 0.12277599762991603,
+              "-4": 0.1569258569685173,
+              "-3": 0.17021559701659295,
+              "-2": 0.12545785464424314,
+              "-1": 0.15693871433054168,
+              "1": 0.4976239731756076,
+              "2": 0.3403837368435936,
+              "3": 0.3357003600983304,
+              "4": 0.4687823469006126,
+              "5": 0.27524187303186576,
+              "6": 0.39335763673996715,
+              "7": 0.5837147342251392,
+              "8": 0.5374171444965503,
+              "9": 0.5479953375081683
+            }
+          }
+        }
+      }
+    },
+    "S_Q2 Von Neumann": {
+      "n_bits": 285402,
+      "results": {
+        "1 Frequency (Monobit)": {
+          "applicable": true,
+          "ps": {
+            "Frequency": 0.30148117847170863
+          },
+          "note": "",
+          "extra": {}
+        },
+        "2 Block Frequency": {
+          "applicable": true,
+          "ps": {
+            "BlockFrequency": 0.2868949566883314
+          },
+          "note": "M=128, N=2229 (zalecenie NIST: N<100)",
+          "extra": {}
+        },
+        "3 Runs": {
+          "applicable": true,
+          "ps": {
+            "Runs": 0.47797632796860756
+          },
+          "note": "",
+          "extra": {}
+        },
+        "4 Longest Run of Ones": {
+          "applicable": true,
+          "ps": {
+            "LongestRun": 0.5770387774805077
+          },
+          "note": "M=128, N=2229, K=5",
+          "extra": {}
+        },
+        "5 Binary Matrix Rank": {
+          "applicable": true,
+          "ps": {
+            "Rank": 0.43689610867963796
+          },
+          "note": "N=278",
+          "extra": {
+            "F32": 71,
+            "F31": 166,
+            "Frest": 41
+          }
+        },
+        "6 DFT (Spectral)": {
+          "applicable": true,
+          "ps": {
+            "DFT": 0.38994151188384696
+          },
+          "note": "N1=135616, N0=135565.9",
+          "extra": {}
+        },
+        "7 Non-overlapping Template": {
+          "applicable": true,
+          "ps": {
+            "NonOverlapping": 0.5687854022460797
+          },
+          "note": "m=9, N=8, M=35675",
+          "extra": {}
+        },
+        "8 Overlapping Template": {
+          "applicable": true,
+          "ps": {
+            "Overlapping": 0.34895988443907916
+          },
+          "note": "m=9, M=1032, N=276",
+          "extra": {}
+        },
+        "9 Serial": {
+          "applicable": true,
+          "ps": {
+            "Serial-p1": 0.21334737472268514,
+            "Serial-p2": 0.0624924389214591
+          },
+          "note": "m=8",
+          "extra": {}
+        },
+        "10 Approximate Entropy": {
+          "applicable": true,
+          "ps": {
+            "ApEn": 0.34499795771962016
+          },
+          "note": "m=8",
+          "extra": {}
+        },
+        "11 Cumulative Sums": {
+          "applicable": true,
+          "ps": {
+            "Cusum-F": 0.4384832793398929,
+            "Cusum-B": 0.25052019375821655
+          },
+          "note": "zF=656, zB=819",
+          "extra": {}
+        },
+        "12 Random Excursions Variant": {
+          "applicable": false,
+          "ps": {
+            "RandExcVar-min": 0.08155226487828934
+          },
+          "note": "J=279 (< 500: test nie ma zastosowania wg NIST)",
+          "extra": {
+            "J": 279,
+            "per_state": {
+              "-9": 0.5244011878997299,
+              "-8": 0.30937704736915095,
+              "-7": 0.2356784785464815,
+              "-6": 0.344896078258047,
+              "-5": 0.46308373910430944,
+              "-4": 0.7128644530515484,
+              "-3": 0.7619561805189272,
+              "-2": 0.5740156813847742,
+              "-1": 0.966232939190936,
+              "1": 0.1275083304905829,
+              "2": 0.12361040236823521,
+              "3": 0.08155226487828934,
+              "4": 0.15443328097502948,
+              "5": 0.3163967756238799,
+              "6": 0.28364125139310437,
+              "7": 0.24988273322346033,
+              "8": 0.23780677487832869,
+              "9": 0.32936267003831055
+            }
+          }
+        }
+      }
+    },
+    "S_Q1 XOR-folding": {
+      "n_bits": 572110,
+      "results": {
+        "1 Frequency (Monobit)": {
+          "applicable": true,
+          "ps": {
+            "Frequency": 0.6435574397709949
+          },
+          "note": "",
+          "extra": {}
+        },
+        "2 Block Frequency": {
+          "applicable": true,
+          "ps": {
+            "BlockFrequency": 0.08775370939909924
+          },
+          "note": "M=128, N=4469 (zalecenie NIST: N<100)",
+          "extra": {}
+        },
+        "3 Runs": {
+          "applicable": true,
+          "ps": {
+            "Runs": 0.7512299011570712
+          },
+          "note": "",
+          "extra": {}
+        },
+        "4 Longest Run of Ones": {
+          "applicable": true,
+          "ps": {
+            "LongestRun": 0.38259056274504566
+          },
+          "note": "M=128, N=4469, K=5",
+          "extra": {}
+        },
+        "5 Binary Matrix Rank": {
+          "applicable": true,
+          "ps": {
+            "Rank": 0.45587428974209926
+          },
+          "note": "N=558",
+          "extra": {
+            "F32": 169,
+            "F31": 308,
+            "Frest": 81
+          }
+        },
+        "6 DFT (Spectral)": {
+          "applicable": true,
+          "ps": {
+            "DFT": 0.8059305486463939
+          },
+          "note": "N1=271732, N0=271752.2",
+          "extra": {}
+        },
+        "7 Non-overlapping Template": {
+          "applicable": true,
+          "ps": {
+            "NonOverlapping": 0.215617084759703
+          },
+          "note": "m=9, N=8, M=71513",
+          "extra": {}
+        },
+        "8 Overlapping Template": {
+          "applicable": true,
+          "ps": {
+            "Overlapping": 0.08668530864262904
+          },
+          "note": "m=9, M=1032, N=554",
+          "extra": {}
+        },
+        "9 Serial": {
+          "applicable": true,
+          "ps": {
+            "Serial-p1": 0.9729989322960604,
+            "Serial-p2": 0.822064430389155
+          },
+          "note": "m=8",
+          "extra": {}
+        },
+        "10 Approximate Entropy": {
+          "applicable": true,
+          "ps": {
+            "ApEn": 0.8252121178364361
+          },
+          "note": "m=8",
+          "extra": {}
+        },
+        "11 Cumulative Sums": {
+          "applicable": true,
+          "ps": {
+            "Cusum-F": 0.23873602881084888,
+            "Cusum-B": 0.5452598974929961
+          },
+          "note": "zF=1178, zB=828",
+          "extra": {}
+        },
+        "12 Random Excursions Variant": {
+          "applicable": false,
+          "ps": {
+            "RandExcVar-min": 0.16681186238324675
+          },
+          "note": "J=44 (< 500: test nie ma zastosowania wg NIST)",
+          "extra": {
+            "J": 44,
+            "per_state": {
+              "-9": 0.32587002429697964,
+              "-8": 0.3493662840398988,
+              "-7": 0.3440976686571676,
+              "-6": 0.3512872754993077,
+              "-5": 0.4137744825729498,
+              "-4": 0.25925566826756874,
+              "-3": 0.18192622259449343,
+              "-2": 0.5796392710816557,
+              "-1": 0.7491191330005953,
+              "1": 0.6698153575994166,
+              "2": 0.19619766291266127,
+              "3": 0.16681186238324675,
+              "4": 0.19728799275451914,
+              "5": 0.21362073030905238,
+              "6": 0.221947376599968,
+              "7": 0.22543950092739728,
+              "8": 0.22587235588913823,
+              "9": 0.25529050519961527
+            }
+          }
+        }
+      }
+    },
+    "S_Q2 XOR-folding": {
+      "n_bits": 572110,
+      "results": {
+        "1 Frequency (Monobit)": {
+          "applicable": true,
+          "ps": {
+            "Frequency": 0.08423118736250944
+          },
+          "note": "",
+          "extra": {}
+        },
+        "2 Block Frequency": {
+          "applicable": true,
+          "ps": {
+            "BlockFrequency": 0.004751432470091262
+          },
+          "note": "M=128, N=4469 (zalecenie NIST: N<100)",
+          "extra": {}
+        },
+        "3 Runs": {
+          "applicable": true,
+          "ps": {
+            "Runs": 0.3404609683319011
+          },
+          "note": "",
+          "extra": {}
+        },
+        "4 Longest Run of Ones": {
+          "applicable": true,
+          "ps": {
+            "LongestRun": 0.7176523362785769
+          },
+          "note": "M=128, N=4469, K=5",
+          "extra": {}
+        },
+        "5 Binary Matrix Rank": {
+          "applicable": true,
+          "ps": {
+            "Rank": 0.013439324204920822
+          },
+          "note": "N=558",
+          "extra": {
+            "F32": 145,
+            "F31": 355,
+            "Frest": 58
+          }
+        },
+        "6 DFT (Spectral)": {
+          "applicable": true,
+          "ps": {
+            "DFT": 0.4501072939403584
+          },
+          "note": "N1=271690, N0=271752.2",
+          "extra": {}
+        },
+        "7 Non-overlapping Template": {
+          "applicable": true,
+          "ps": {
+            "NonOverlapping": 0.0773863135464754
+          },
+          "note": "m=9, N=8, M=71513",
+          "extra": {}
+        },
+        "8 Overlapping Template": {
+          "applicable": true,
+          "ps": {
+            "Overlapping": 0.32900040807639297
+          },
+          "note": "m=9, M=1032, N=554",
+          "extra": {}
+        },
+        "9 Serial": {
+          "applicable": true,
+          "ps": {
+            "Serial-p1": 0.6054789434223874,
+            "Serial-p2": 0.15781239497999824
+          },
+          "note": "m=8",
+          "extra": {}
+        },
+        "10 Approximate Entropy": {
+          "applicable": true,
+          "ps": {
+            "ApEn": 0.3947773129298395
+          },
+          "note": "m=8",
+          "extra": {}
+        },
+        "11 Cumulative Sums": {
+          "applicable": true,
+          "ps": {
+            "Cusum-F": 0.03552779386878094,
+            "Cusum-B": 0.16656995363664429
+          },
+          "note": "zF=1793, zB=1310",
+          "extra": {}
+        },
+        "12 Random Excursions Variant": {
+          "applicable": false,
+          "ps": {
+            "RandExcVar-min": 0.4142161782425253
+          },
+          "note": "J=9 (< 500: test nie ma zastosowania wg NIST)",
+          "extra": {
+            "J": 9,
+            "per_state": {
+              "-9": 0.8191294708665398,
+              "-8": 0.8076705648908361,
+              "-7": 0.8959777528329079,
+              "-6": 0.8311704095417624,
+              "-5": 0.7533162239313512,
+              "-4": 0.8585862013366392,
+              "-3": 1.0,
+              "-2": 0.6830913983096087,
+              "-1": 0.6373518882339371,
+              "1": 0.4795001221869535,
+              "2": 0.4142161782425253,
+              "3": 0.5270892568655381,
+              "4": 0.4760334929424296,
+              "5": 0.4795001221869535,
+              "6": 0.5224312849615644,
+              "7": 0.5562984612747348,
+              "8": 0.5838824207703652,
+              "9": 0.6069054272179508
+            }
+          }
+        }
+      }
+    }
+  },
+  "nist_summary": {
+    "S_Q1 surowy": {
+      "passed": 5,
+      "total": 13
+    },
+    "S_Q2 surowy": {
+      "passed": 2,
+      "total": 13
+    },
+    "S_Q1 Von Neumann": {
+      "passed": 14,
+      "total": 14
+    },
+    "S_Q2 Von Neumann": {
+      "passed": 13,
+      "total": 13
+    },
+    "S_Q1 XOR-folding": {
+      "passed": 13,
+      "total": 13
+    },
+    "S_Q2 XOR-folding": {
+      "passed": 12,
+      "total": 13
+    }
+  },
+  "nist_multi": {
+    "S_Q1 surowy": {
+      "n_sub": 11442,
+      "results": {
+        "Frequency": {
+          "test": "1 Frequency (Monobit)",
+          "K_effective": 100,
+          "n_sub": 11442,
+          "applicable": true,
+          "proportion": 0.8,
+          "prop_low": 0.9601503768868014,
+          "prop_ok": false,
+          "hist": [
+            61,
+            11,
+            3,
+            1,
+            8,
+            5,
+            1,
+            4,
+            4,
+            2
+          ],
+          "uniformity_p": 7.643604783427392e-59,
+          "uniformity_ok": false
+        },
+        "BlockFrequency": {
+          "test": "2 Block Frequency",
+          "K_effective": 100,
+          "n_sub": 11442,
+          "applicable": true,
+          "proportion": 0.94,
+          "prop_low": 0.9601503768868014,
+          "prop_ok": false,
+          "hist": [
+            19,
+            10,
+            8,
+            14,
+            8,
+            8,
+            10,
+            5,
+            8,
+            10
+          ],
+          "uniformity_p": 0.12961959133276182,
+          "uniformity_ok": true
+        },
+        "Runs": {
+          "test": "3 Runs",
+          "K_effective": 100,
+          "n_sub": 11442,
+          "applicable": true,
+          "proportion": 0.96,
+          "prop_low": 0.9601503768868014,
+          "prop_ok": false,
+          "hist": [
+            10,
+            6,
+            11,
+            7,
+            11,
+            8,
+            11,
+            11,
+            11,
+            14
+          ],
+          "uniformity_p": 0.8343082601934075,
+          "uniformity_ok": true
+        },
+        "LongestRun": {
+          "test": "4 Longest Run of Ones",
+          "K_effective": 100,
+          "n_sub": 11442,
+          "applicable": true,
+          "proportion": 0.99,
+          "prop_low": 0.9601503768868014,
+          "prop_ok": true,
+          "hist": [
+            7,
+            12,
+            9,
+            7,
+            16,
+            12,
+            12,
+            9,
+            9,
+            7
+          ],
+          "uniformity_p": 0.554420435872857,
+          "uniformity_ok": true
+        },
+        "DFT": {
+          "test": "6 DFT (Spectral)",
+          "K_effective": 100,
+          "n_sub": 11442,
+          "applicable": true,
+          "proportion": 1.0,
+          "prop_low": 0.9601503768868014,
+          "prop_ok": true,
+          "hist": [
+            13,
+            12,
+            6,
+            9,
+            9,
+            5,
+            14,
+            10,
+            7,
+            15
+          ],
+          "uniformity_p": 0.30412581641191044,
+          "uniformity_ok": true
+        },
+        "NonOverlapping": {
+          "test": "7 Non-overlapping Template",
+          "K_effective": 100,
+          "n_sub": 11442,
+          "applicable": true,
+          "proportion": 0.94,
+          "prop_low": 0.9601503768868014,
+          "prop_ok": false,
+          "hist": [
+            22,
+            8,
+            6,
+            9,
+            4,
+            11,
+            9,
+            9,
+            13,
+            9
+          ],
+          "uniformity_p": 0.010988016145239983,
+          "uniformity_ok": true
+        },
+        "Serial-p1": {
+          "test": "9 Serial",
+          "K_effective": 100,
+          "n_sub": 11442,
+          "applicable": true,
+          "proportion": 0.98,
+          "prop_low": 0.9601503768868014,
+          "prop_ok": true,
+          "hist": [
+            12,
+            9,
+            8,
+            10,
+            10,
+            17,
+            12,
+            7,
+            6,
+            9
+          ],
+          "uniformity_p": 0.4559371952206618,
+          "uniformity_ok": true
+        },
+        "Serial-p2": {
+          "test": "9 Serial",
+          "K_effective": 100,
+          "n_sub": 11442,
+          "applicable": true,
+          "proportion": 1.0,
+          "prop_low": 0.9601503768868014,
+          "prop_ok": true,
+          "hist": [
+            13,
+            6,
+            11,
+            10,
+            5,
+            9,
+            11,
+            15,
+            12,
+            8
+          ],
+          "uniformity_p": 0.4749856866480098,
+          "uniformity_ok": true
+        },
+        "ApEn": {
+          "test": "10 Approximate Entropy",
+          "K_effective": 100,
+          "n_sub": 11442,
+          "applicable": true,
+          "proportion": 0.97,
+          "prop_low": 0.9601503768868014,
+          "prop_ok": true,
+          "hist": [
+            14,
+            9,
+            9,
+            10,
+            10,
+            15,
+            12,
+            6,
+            7,
+            8
+          ],
+          "uniformity_p": 0.5749034238644553,
+          "uniformity_ok": true
+        },
+        "Cusum-F": {
+          "test": "11 Cumulative Sums",
+          "K_effective": 100,
+          "n_sub": 11442,
+          "applicable": true,
+          "proportion": 0.81,
+          "prop_low": 0.9601503768868014,
+          "prop_ok": false,
+          "hist": [
+            51,
+            17,
+            6,
+            5,
+            5,
+            1,
+            4,
+            7,
+            1,
+            3
+          ],
+          "uniformity_p": 2.6895508364113467e-39,
+          "uniformity_ok": false
+        },
+        "Cusum-B": {
+          "test": "11 Cumulative Sums",
+          "K_effective": 100,
+          "n_sub": 11442,
+          "applicable": true,
+          "proportion": 0.81,
+          "prop_low": 0.9601503768868014,
+          "prop_ok": false,
+          "hist": [
+            52,
+            14,
+            6,
+            6,
+            3,
+            5,
+            4,
+            4,
+            3,
+            3
+          ],
+          "uniformity_p": 2.216928891755765e-39,
+          "uniformity_ok": false
+        }
+      }
+    },
+    "S_Q2 surowy": {
+      "n_sub": 11442,
+      "results": {
+        "Frequency": {
+          "test": "1 Frequency (Monobit)",
+          "K_effective": 100,
+          "n_sub": 11442,
+          "applicable": true,
+          "proportion": 0.0,
+          "prop_low": 0.9601503768868014,
+          "prop_ok": false,
+          "hist": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "uniformity_p": 6.186801032394592e-188,
+          "uniformity_ok": false
+        },
+        "BlockFrequency": {
+          "test": "2 Block Frequency",
+          "K_effective": 100,
+          "n_sub": 11442,
+          "applicable": true,
+          "proportion": 0.13,
+          "prop_low": 0.9601503768868014,
+          "prop_ok": false,
+          "hist": [
+            97,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "uniformity_p": 2.86588976388572e-175,
+          "uniformity_ok": false
+        },
+        "Runs": {
+          "test": "3 Runs",
+          "K_effective": 100,
+          "n_sub": 11442,
+          "applicable": true,
+          "proportion": 0.0,
+          "prop_low": 0.9601503768868014,
+          "prop_ok": false,
+          "hist": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "uniformity_p": 6.186801032394592e-188,
+          "uniformity_ok": false
+        },
+        "LongestRun": {
+          "test": "4 Longest Run of Ones",
+          "K_effective": 100,
+          "n_sub": 11442,
+          "applicable": true,
+          "proportion": 0.42,
+          "prop_low": 0.9601503768868014,
+          "prop_ok": false,
+          "hist": [
+            83,
+            6,
+            6,
+            2,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "uniformity_p": 1.0180870188086876e-122,
+          "uniformity_ok": false
+        },
+        "DFT": {
+          "test": "6 DFT (Spectral)",
+          "K_effective": 100,
+          "n_sub": 11442,
+          "applicable": true,
+          "proportion": 0.98,
+          "prop_low": 0.9601503768868014,
+          "prop_ok": true,
+          "hist": [
+            15,
+            7,
+            9,
+            15,
+            13,
+            6,
+            8,
+            9,
+            8,
+            10
+          ],
+          "uniformity_p": 0.40119928658025733,
+          "uniformity_ok": true
+        },
+        "NonOverlapping": {
+          "test": "7 Non-overlapping Template",
+          "K_effective": 100,
+          "n_sub": 11442,
+          "applicable": true,
+          "proportion": 0.61,
+          "prop_low": 0.9601503768868014,
+          "prop_ok": false,
+          "hist": [
+            66,
+            9,
+            5,
+            4,
+            4,
+            2,
+            5,
+            2,
+            2,
+            1
+          ],
+          "uniformity_p": 1.2914011922537147e-70,
+          "uniformity_ok": false
+        },
+        "Serial-p1": {
+          "test": "9 Serial",
+          "K_effective": 100,
+          "n_sub": 11442,
+          "applicable": true,
+          "proportion": 0.16,
+          "prop_low": 0.9601503768868014,
+          "prop_ok": false,
+          "hist": [
+            97,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "uniformity_p": 2.1283956007471166e-175,
+          "uniformity_ok": false
+        },
+        "Serial-p2": {
+          "test": "9 Serial",
+          "K_effective": 100,
+          "n_sub": 11442,
+          "applicable": true,
+          "proportion": 1.0,
+          "prop_low": 0.9601503768868014,
+          "prop_ok": true,
+          "hist": [
+            11,
+            11,
+            8,
+            9,
+            12,
+            10,
+            11,
+            5,
+            15,
+            8
+          ],
+          "uniformity_p": 0.6786857852960747,
+          "uniformity_ok": true
+        },
+        "ApEn": {
+          "test": "10 Approximate Entropy",
+          "K_effective": 100,
+          "n_sub": 11442,
+          "applicable": true,
+          "proportion": 0.17,
+          "prop_low": 0.9601503768868014,
+          "prop_ok": false,
+          "hist": [
+            98,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "uniformity_p": 1.7222708924703165e-179,
+          "uniformity_ok": false
+        },
+        "Cusum-F": {
+          "test": "11 Cumulative Sums",
+          "K_effective": 100,
+          "n_sub": 11442,
+          "applicable": true,
+          "proportion": 0.0,
+          "prop_low": 0.9601503768868014,
+          "prop_ok": false,
+          "hist": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "uniformity_p": 6.186801032394592e-188,
+          "uniformity_ok": false
+        },
+        "Cusum-B": {
+          "test": "11 Cumulative Sums",
+          "K_effective": 100,
+          "n_sub": 11442,
+          "applicable": true,
+          "proportion": 0.0,
+          "prop_low": 0.9601503768868014,
+          "prop_ok": false,
+          "hist": [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "uniformity_p": 6.186801032394592e-188,
+          "uniformity_ok": false
+        }
+      }
+    },
+    "S_Q1 XOR-folding": {
+      "n_sub": 5721,
+      "results": {
+        "Frequency": {
+          "test": "1 Frequency (Monobit)",
+          "K_effective": 100,
+          "n_sub": 5721,
+          "applicable": true,
+          "proportion": 0.99,
+          "prop_low": 0.9601503768868014,
+          "prop_ok": true,
+          "hist": [
+            12,
+            9,
+            8,
+            12,
+            7,
+            9,
+            9,
+            15,
+            9,
+            10
+          ],
+          "uniformity_p": 0.8343082601934075,
+          "uniformity_ok": true
+        },
+        "BlockFrequency": {
+          "test": "2 Block Frequency",
+          "K_effective": 100,
+          "n_sub": 5721,
+          "applicable": true,
+          "proportion": 0.99,
+          "prop_low": 0.9601503768868014,
+          "prop_ok": true,
+          "hist": [
+            11,
+            17,
+            10,
+            11,
+            8,
+            10,
+            16,
+            4,
+            8,
+            5
+          ],
+          "uniformity_p": 0.07571926316863387,
+          "uniformity_ok": true
+        },
+        "Runs": {
+          "test": "3 Runs",
+          "K_effective": 100,
+          "n_sub": 5721,
+          "applicable": true,
+          "proportion": 0.98,
+          "prop_low": 0.9601503768868014,
+          "prop_ok": true,
+          "hist": [
+            13,
+            9,
+            9,
+            10,
+            11,
+            9,
+            13,
+            7,
+            10,
+            9
+          ],
+          "uniformity_p": 0.9558347256002608,
+          "uniformity_ok": true
+        },
+        "LongestRun": {
+          "test": "4 Longest Run of Ones",
+          "K_effective": 100,
+          "n_sub": 5721,
+          "applicable": true,
+          "proportion": 0.99,
+          "prop_low": 0.9601503768868014,
+          "prop_ok": true,
+          "hist": [
+            10,
+            12,
+            10,
+            20,
+            6,
+            7,
+            11,
+            6,
+            6,
+            12
+          ],
+          "uniformity_p": 0.05536105194182698,
+          "uniformity_ok": true
+        },
+        "DFT": {
+          "test": "6 DFT (Spectral)",
+          "K_effective": 100,
+          "n_sub": 5721,
+          "applicable": true,
+          "proportion": 1.0,
+          "prop_low": 0.9601503768868014,
+          "prop_ok": true,
+          "hist": [
+            11,
+            16,
+            12,
+            10,
+            5,
+            7,
+            11,
+            9,
+            6,
+            13
+          ],
+          "uniformity_p": 0.3345381516340061,
+          "uniformity_ok": true
+        },
+        "NonOverlapping": {
+          "test": "7 Non-overlapping Template",
+          "K_effective": 100,
+          "n_sub": 5721,
+          "applicable": true,
+          "proportion": 0.95,
+          "prop_low": 0.9601503768868014,
+          "prop_ok": false,
+          "hist": [
+            16,
+            3,
+            10,
+            8,
+            12,
+            12,
+            12,
+            6,
+            14,
+            7
+          ],
+          "uniformity_p": 0.11538658258886124,
+          "uniformity_ok": true
+        },
+        "Serial-p1": {
+          "test": "9 Serial",
+          "K_effective": 100,
+          "n_sub": 5721,
+          "applicable": true,
+          "proportion": 0.98,
+          "prop_low": 0.9601503768868014,
+          "prop_ok": true,
+          "hist": [
+            7,
+            5,
+            11,
+            14,
+            10,
+            11,
+            10,
+            4,
+            16,
+            12
+          ],
+          "uniformity_p": 0.171866837466844,
+          "uniformity_ok": true
+        },
+        "Serial-p2": {
+          "test": "9 Serial",
+          "K_effective": 100,
+          "n_sub": 5721,
+          "applicable": true,
+          "proportion": 0.99,
+          "prop_low": 0.9601503768868014,
+          "prop_ok": true,
+          "hist": [
+            10,
+            12,
+            12,
+            10,
+            9,
+            8,
+            12,
+            12,
+            7,
+            8
+          ],
+          "uniformity_p": 0.946307673764427,
+          "uniformity_ok": true
+        },
+        "ApEn": {
+          "test": "10 Approximate Entropy",
+          "K_effective": 100,
+          "n_sub": 5721,
+          "applicable": true,
+          "proportion": 0.99,
+          "prop_low": 0.9601503768868014,
+          "prop_ok": true,
+          "hist": [
+            4,
+            10,
+            8,
+            10,
+            12,
+            10,
+            8,
+            14,
+            8,
+            16
+          ],
+          "uniformity_p": 0.3190835021426139,
+          "uniformity_ok": true
+        },
+        "Cusum-F": {
+          "test": "11 Cumulative Sums",
+          "K_effective": 100,
+          "n_sub": 5721,
+          "applicable": true,
+          "proportion": 0.99,
+          "prop_low": 0.9601503768868014,
+          "prop_ok": true,
+          "hist": [
+            8,
+            15,
+            10,
+            11,
+            7,
+            8,
+            8,
+            13,
+            7,
+            13
+          ],
+          "uniformity_p": 0.5955485072842059,
+          "uniformity_ok": true
+        },
+        "Cusum-B": {
+          "test": "11 Cumulative Sums",
+          "K_effective": 100,
+          "n_sub": 5721,
+          "applicable": true,
+          "proportion": 0.98,
+          "prop_low": 0.9601503768868014,
+          "prop_ok": true,
+          "hist": [
+            8,
+            8,
+            11,
+            14,
+            10,
+            10,
+            11,
+            9,
+            12,
+            7
+          ],
+          "uniformity_p": 0.9114125268316792,
+          "uniformity_ok": true
+        }
+      }
+    },
+    "S_Q2 XOR-folding": {
+      "n_sub": 5721,
+      "results": {
+        "Frequency": {
+          "test": "1 Frequency (Monobit)",
+          "K_effective": 100,
+          "n_sub": 5721,
+          "applicable": true,
+          "proportion": 0.99,
+          "prop_low": 0.9601503768868014,
+          "prop_ok": true,
+          "hist": [
+            17,
+            15,
+            9,
+            9,
+            6,
+            12,
+            9,
+            9,
+            10,
+            4
+          ],
+          "uniformity_p": 0.14532611574989807,
+          "uniformity_ok": true
+        },
+        "BlockFrequency": {
+          "test": "2 Block Frequency",
+          "K_effective": 100,
+          "n_sub": 5721,
+          "applicable": true,
+          "proportion": 0.98,
+          "prop_low": 0.9601503768868014,
+          "prop_ok": true,
+          "hist": [
+            15,
+            15,
+            8,
+            10,
+            9,
+            9,
+            12,
+            8,
+            9,
+            5
+          ],
+          "uniformity_p": 0.43727418891386693,
+          "uniformity_ok": true
+        },
+        "Runs": {
+          "test": "3 Runs",
+          "K_effective": 100,
+          "n_sub": 5721,
+          "applicable": true,
+          "proportion": 0.99,
+          "prop_low": 0.9601503768868014,
+          "prop_ok": true,
+          "hist": [
+            9,
+            11,
+            11,
+            10,
+            10,
+            13,
+            10,
+            9,
+            10,
+            7
+          ],
+          "uniformity_p": 0.9878955401745281,
+          "uniformity_ok": true
+        },
+        "LongestRun": {
+          "test": "4 Longest Run of Ones",
+          "K_effective": 100,
+          "n_sub": 5721,
+          "applicable": true,
+          "proportion": 0.99,
+          "prop_low": 0.9601503768868014,
+          "prop_ok": true,
+          "hist": [
+            12,
+            15,
+            8,
+            12,
+            8,
+            20,
+            7,
+            8,
+            6,
+            4
+          ],
+          "uniformity_p": 0.014549902304087552,
+          "uniformity_ok": true
+        },
+        "DFT": {
+          "test": "6 DFT (Spectral)",
+          "K_effective": 100,
+          "n_sub": 5721,
+          "applicable": true,
+          "proportion": 0.99,
+          "prop_low": 0.9601503768868014,
+          "prop_ok": true,
+          "hist": [
+            13,
+            11,
+            7,
+            14,
+            11,
+            9,
+            7,
+            7,
+            12,
+            9
+          ],
+          "uniformity_p": 0.7399182920946538,
+          "uniformity_ok": true
+        },
+        "NonOverlapping": {
+          "test": "7 Non-overlapping Template",
+          "K_effective": 100,
+          "n_sub": 5721,
+          "applicable": true,
+          "proportion": 0.98,
+          "prop_low": 0.9601503768868014,
+          "prop_ok": true,
+          "hist": [
+            17,
+            4,
+            6,
+            11,
+            12,
+            10,
+            6,
+            13,
+            11,
+            10
+          ],
+          "uniformity_p": 0.15376333779556464,
+          "uniformity_ok": true
+        },
+        "Serial-p1": {
+          "test": "9 Serial",
+          "K_effective": 100,
+          "n_sub": 5721,
+          "applicable": true,
+          "proportion": 0.99,
+          "prop_low": 0.9601503768868014,
+          "prop_ok": true,
+          "hist": [
+            6,
+            11,
+            11,
+            6,
+            15,
+            7,
+            11,
+            11,
+            11,
+            11
+          ],
+          "uniformity_p": 0.6163052249833653,
+          "uniformity_ok": true
+        },
+        "Serial-p2": {
+          "test": "9 Serial",
+          "K_effective": 100,
+          "n_sub": 5721,
+          "applicable": true,
+          "proportion": 0.99,
+          "prop_low": 0.9601503768868014,
+          "prop_ok": true,
+          "hist": [
+            4,
+            17,
+            10,
+            8,
+            6,
+            11,
+            9,
+            11,
+            9,
+            15
+          ],
+          "uniformity_p": 0.14532611574989807,
+          "uniformity_ok": true
+        },
+        "ApEn": {
+          "test": "10 Approximate Entropy",
+          "K_effective": 100,
+          "n_sub": 5721,
+          "applicable": true,
+          "proportion": 1.0,
+          "prop_low": 0.9601503768868014,
+          "prop_ok": true,
+          "hist": [
+            10,
+            9,
+            12,
+            11,
+            13,
+            7,
+            4,
+            11,
+            15,
+            8
+          ],
+          "uniformity_p": 0.43727418891386693,
+          "uniformity_ok": true
+        },
+        "Cusum-F": {
+          "test": "11 Cumulative Sums",
+          "K_effective": 100,
+          "n_sub": 5721,
+          "applicable": true,
+          "proportion": 0.99,
+          "prop_low": 0.9601503768868014,
+          "prop_ok": true,
+          "hist": [
+            14,
+            12,
+            14,
+            18,
+            8,
+            6,
+            4,
+            6,
+            10,
+            8
+          ],
+          "uniformity_p": 0.040108279765939545,
+          "uniformity_ok": true
+        },
+        "Cusum-B": {
+          "test": "11 Cumulative Sums",
+          "K_effective": 100,
+          "n_sub": 5721,
+          "applicable": true,
+          "proportion": 1.0,
+          "prop_low": 0.9601503768868014,
+          "prop_ok": true,
+          "hist": [
+            14,
+            18,
+            8,
+            11,
+            9,
+            6,
+            7,
+            8,
+            7,
+            12
+          ],
+          "uniformity_p": 0.171866837466844,
+          "uniformity_ok": true
+        }
+      }
+    }
+  },
+  "correlation": {
+    "acf_S_Q1": [
+      0.00022868393374918797,
+      -0.0001760618304024207,
+      0.0001360203623527351,
+      5.469345808054806e-05,
+      -9.656788101182109e-05,
+      3.368478121083522e-05,
+      7.30226781672671e-05,
+      -0.0015101183127041893,
+      0.0001569156535278767,
+      -0.00024261292917591447,
+      0.0005956979844376083,
+      -0.0015626258316666967,
+      0.00011317784008213063,
+      -0.00044892040241518543,
+      0.0017758685826717694,
+      0.00012628987872100617,
+      0.0008038073945751435,
+      -0.00034224337867043176,
+      -0.00121377359408324,
+      -0.0017671021310640609,
+      0.001307390237088094,
+      -0.00046107700605708154,
+      0.0007986167785113905,
+      0.00176458593683514,
+      -0.0016386266213953248,
+      -0.00015336638336804013,
+      -4.931123303924783e-05,
+      -0.0004453430940023959,
+      -0.0003570510926715752,
+      -0.000920869794875551,
+      -0.0008675450109550131,
+      0.0011229636174843014,
+      2.409068657869047e-05,
+      0.0015250582712765478,
+      -0.0006070680329332472,
+      0.00010541670033074502,
+      0.0004489693887550775,
+      0.00032745808562508404,
+      -0.0012801599574337034,
+      -0.0011499072952110975,
+      -0.0002608660151895919,
+      -0.0007197830651632148,
+      0.0005888648237795714,
+      -0.0018090123327473336,
+      -8.075783488351084e-05,
+      1.6303871963069833e-05,
+      0.00019551063855990607,
+      -0.0004557261071692484,
+      0.0015120259287899106,
+      0.000547804686076778
+    ],
+    "acf_S_Q2": [
+      -0.0022143148297632973,
+      -0.002285334790337533,
+      0.0014604105872525355,
+      -0.0006430099957029806,
+      -0.0007915619126195948,
+      -0.0009698515968490123,
+      -0.0007389981541629576,
+      1.880717686071409e-05,
+      -0.0008023638111403696,
+      0.0007247912768561903,
+      -0.0009430157450739521,
+      -0.0005048945596417254,
+      0.001245459667443862,
+      0.0018575978157206478,
+      0.0012507205956433598,
+      0.0001766127012402926,
+      0.0005409606223053065,
+      -0.0003839670767618499,
+      0.002929677752391485,
+      -2.2012531094196197e-05,
+      0.0011013917885629048,
+      0.0002591427250284266,
+      0.0003354236138024337,
+      -0.0005822323807009204,
+      -9.304967303622873e-05,
+      -0.0004013208230554701,
+      0.0005426741751807549,
+      3.41613075932231e-05,
+      -3.17119737910601e-05,
+      0.0007823015586553365,
+      -2.130436640125933e-05,
+      1.118670470462402e-05,
+      0.00010879134839803146,
+      0.00038016727555001943,
+      -0.0009382178334761267,
+      0.0005751308835509619,
+      -0.00030764066444934453,
+      -0.0010339603125496923,
+      1.2157730151499418e-05,
+      0.0003432548713148736,
+      -6.501429779557352e-05,
+      -0.0019487487542506322,
+      0.00037961888340503437,
+      -0.000652332859931224,
+      -0.0009184478588834076,
+      0.000781090525356095,
+      -0.0003754503251934873,
+      -0.00028838471926636303,
+      0.0007261162101342625,
+      0.0013487933961777738
+    ],
+    "ccf_lags": [
+      -50,
+      -49,
+      -48,
+      -47,
+      -46,
+      -45,
+      -44,
+      -43,
+      -42,
+      -41,
+      -40,
+      -39,
+      -38,
+      -37,
+      -36,
+      -35,
+      -34,
+      -33,
+      -32,
+      -31,
+      -30,
+      -29,
+      -28,
+      -27,
+      -26,
+      -25,
+      -24,
+      -23,
+      -22,
+      -21,
+      -20,
+      -19,
+      -18,
+      -17,
+      -16,
+      -15,
+      -14,
+      -13,
+      -12,
+      -11,
+      -10,
+      -9,
+      -8,
+      -7,
+      -6,
+      -5,
+      -4,
+      -3,
+      -2,
+      -1,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50
+    ],
+    "ccf": [
+      -0.0014463190727722732,
+      -0.0003378315869960247,
+      -0.0004928732680931548,
+      -0.001483946065142029,
+      -0.0006244539966772654,
+      -0.0008795066767604955,
+      -0.0005317238324718518,
+      0.0006170415507701409,
+      0.000610833767375349,
+      0.0002120819215988581,
+      -0.0003373788052704899,
+      -0.0007973431062534223,
+      -0.0013853572678211876,
+      0.0017680921312689085,
+      0.001430703261321933,
+      -0.00025783621799434204,
+      0.0016182151040460807,
+      4.533592882445972e-05,
+      0.0009838098500762294,
+      0.00021191321380786105,
+      0.0001129492559080933,
+      0.00035736676413395475,
+      -0.0005108854927974335,
+      -0.0005467620121001424,
+      -0.00023224734987759506,
+      0.0010478276425674921,
+      0.0004599640016230422,
+      0.00037314449113191726,
+      -0.0006862450649812409,
+      -0.0015194487449142783,
+      0.0012712199161601866,
+      -0.00012641637406961528,
+      -0.001746583162156685,
+      0.001569964674516415,
+      0.0001846233523184475,
+      0.000276702105142164,
+      -0.0001255545983341129,
+      -0.0008257242062965954,
+      0.0010782154567194563,
+      0.00031673880509226385,
+      0.00025632828189063367,
+      -0.0013199052304076865,
+      0.0015340013898870093,
+      0.0008655260218463651,
+      -0.0001447955264691747,
+      -0.0010131983040237978,
+      0.0001233280433510268,
+      -0.0011427535285941145,
+      -0.0010629697438022411,
+      -0.0007343410623219573,
+      -0.02917530884386642,
+      0.0002559037924224884,
+      0.0014923166284598601,
+      -0.0006447240376776226,
+      8.333391126035597e-05,
+      -0.00016996829575582117,
+      -0.0004653287951699802,
+      0.0004905449042573015,
+      0.0016690996221650255,
+      -0.0013162111957911887,
+      -0.0017973291532967653,
+      0.0013175368892297916,
+      -6.24545137430441e-05,
+      -0.0005470773289484959,
+      -0.0007863601051653203,
+      -0.0006260891036008165,
+      -9.765752293034068e-05,
+      -0.000951920270927785,
+      -0.0004392885159889818,
+      0.0006884737313534214,
+      0.0007402446648460767,
+      -0.0007484919152799594,
+      0.0006105909402516655,
+      0.000921570822909148,
+      -0.002845323262110525,
+      0.0006183040876320875,
+      0.001404314743158099,
+      0.0005079937027626951,
+      0.0005596141156322565,
+      -0.0009622960581015761,
+      0.0003073849600018164,
+      -0.000844790692481661,
+      -0.00018495491414977002,
+      0.0009444372075019498,
+      -0.00048649718665931215,
+      -0.0012776724960596117,
+      9.893464797117808e-05,
+      -0.00025250357464039154,
+      -0.00034981164793148424,
+      0.0004956870000333946,
+      -0.0007125663756473784,
+      -0.0017316520239954352,
+      -0.0013258904628192804,
+      0.00047993919490076217,
+      -6.31349461384506e-06,
+      0.0015348714406861492,
+      0.0005667287835265367,
+      0.00012944951335129416,
+      0.0011450563142990152,
+      -0.001349574425680096,
+      2.0023002951005134e-05
+    ],
+    "band_95": 0.0018323199242780718,
+    "acf_S_Q1_outside_band": 0,
+    "acf_S_Q2_outside_band": 5,
+    "ccf_outside_band": 2
+  },
+  "key_export": {
+    "key_bytes": 71488,
+    "key_sha256_of_file": "5b86ce2810f03f3e1138b6a560eb9df5ea142d81bf300778c504e200eecc3938",
+    "seed_hex_length_chars": 128
+  },
+  "disclaimer": "Nazwa pliku 'certified' wynika ze specyfikacji eksperymentu. Wynik testow statystycznych (NIST SP 800-22) oznacza jedynie brak wykrytych odstepstw od losowosci; nie jest dowodem bezpieczenstwa ani nie certyfikuje entropii. Plik zawiera wyjscie SHA-256 z S_Q2, wiec jego wlasne statystyki nie swiadcza o jakosci zrodla. Dostawca chmury ma dostep do surowych wynikow pomiarow, wiec klucz nie jest tajny wzgledem dostawcy. Do zastosowan produkcyjnych kluczy uzywaj sprawdzonego CSPRNG/OS RNG lub zmieszaj to ziarno z takim zrodlem."
+}

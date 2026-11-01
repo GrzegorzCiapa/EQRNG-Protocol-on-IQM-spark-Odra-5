@@ -1,0 +1,27 @@
+% Wymaga pakietu booktabs
+\begin{table}[htbp]
+\centering
+\small
+\begin{tabular}{lrrrrrr}
+\toprule
+Test & $S_{Q_1}$ surowy & $S_{Q_2}$ surowy & $S_{Q_1}$ vN & $S_{Q_2}$ vN & $S_{Q_1}$ XOR & $S_{Q_2}$ XOR \\
+\midrule
+Frequency & \textbf{0.0000} & \textbf{0.0000} & 0.0739 & 0.5450 & 0.2937 & 0.6045 \\
+BlockFrequency & 0.0780 & \textbf{0.0000} & 0.0707 & 0.4178 & 0.5829 & 0.8263 \\
+Runs & \textbf{0.0000} & \textbf{0.0000} & 0.6944 & 0.6075 & 0.2698 & 0.5053 \\
+LongestRun & 0.2002 & 0.1592 & 0.7611 & 0.3345 & 0.3608 & 0.7226 \\
+Rank & 0.6467 & 0.9886 & 0.5696 & 0.9034 & 0.8317 & 0.9281 \\
+DFT & 0.9269 & 0.7690 & 0.2528 & 0.1091 & 0.9323 & 0.2713 \\
+NonOverlapping & \textbf{0.0000} & \textbf{0.0000} & 0.9408 & 0.6737 & 0.0740 & 0.0722 \\
+Overlapping & 0.0339 & \textbf{0.0000} & 0.9321 & 0.1463 & 0.8155 & 0.9748 \\
+Serial-p1 & \textbf{0.0000} & \textbf{0.0000} & 0.1906 & 0.0367 & 0.6448 & 0.6064 \\
+Serial-p2 & 0.5769 & 0.0386 & 0.2983 & 0.3120 & 0.8084 & 0.5475 \\
+ApEn & \textbf{0.0000} & \textbf{0.0000} & 0.1630 & 0.0139 & 0.7597 & 0.5871 \\
+Cusum-F & \textbf{0.0000} & \textbf{0.0000} & 0.1003 & 0.2167 & 0.3358 & 0.8436 \\
+Cusum-B & \textbf{0.0000} & \textbf{0.0000} & 0.0582 & 0.6290 & 0.2739 & 0.3974 \\
+RandExcVar-min & -- & -- & -- & -- & -- & 0.0144 \\
+\bottomrule
+\end{tabular}
+\caption{Wyniki testów NIST SP 800-22 (wartości $p$; pogrubione: $p<0{,}01$; -- : test nie ma zastosowania dla danej długości ciągu).}
+\label{tab:eqrng_nist}
+\end{table}
