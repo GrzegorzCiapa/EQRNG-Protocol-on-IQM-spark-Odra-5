@@ -149,7 +149,7 @@ Przeprowadzono trzy pełne serie pomiarowe po **1 300 000 strzałów** każda (�
 | **Poprawne bity w każdym ciągu** | **1 212 209** | **1 175 291** | **1 144 220** |
 | **Liczba uzyskanych tajnych ciągów ($n-2$)** | 1 ($S_{Q_2}$) | 2 ($S_{Q_2}, S_{Q_3}$) | 3 ($S_{Q_2}, S_{Q_3}, S_{Q_4}$) |
 | **Łączny uzysk tajnych bitów klucza** | **1 212 209 bitów** | **2 350 582 bitów (+93,9%)** | **3 432 660 bitów (+183,2%)** |
-| **Testy NIST po korekcji Von Neumanna** | **13/13 PASS** | **12/12 PASS** | **13/13 PASS** |
+| **Testy NIST po korekcji Von Neumanna** | **12/12PASS** | **12/12 PASS** | **12/12 PASS** |
 | **Testy NIST po XOR-foldingu (wielosekw.)** | **11/11 PASS (100%)** | **11/11 PASS (100%)** | **11/11 PASS (100%)** |
 
 ### Kluczowe wnioski:
@@ -222,21 +222,7 @@ $$S_{Q_{ctrl}} = \bigoplus_{i \neq ctrl} S_{Q_i}$$
 
 The **IQM Odra 5** processor features 5 superconducting transmon qubits (`QB1`–`QB5`, indexed `0`–`4`) connected in a **star topology**. The central qubit is **`QB3` (physical index `2`)**, coupled via direct resonators to four peripheral qubits: `QB1 (0)`, `QB2 (1)`, `QB4 (3)`, and `QB5 (4)`.
 
-```text
-        QB1 (idx 0)           QB2 (idx 1)
-         [H, ctrl]             [H, ctrl]
-              \                    /
-               \   CX / CZ        /
-                v                v
-                 QB3 (idx 2, Q3)
-               [CENTRAL CX TARGET]
-                ^                ^
-               /   CX / CZ        \
-              /                    \
-         [H, ctrl]             [H, ctrl]
-        QB4 (idx 3)           QB5 (idx 4)
-
-```
+<img width="526" height="509" alt="image" src="https://github.com/user-attachments/assets/3ea366b7-4f36-4d0b-a787-1551f3c4bfc5" />
 
 The two-qubit interaction graph of the EQRNG circuit is isomorphic to the star topology of the Odra 5 processor. By assigning the control qubit strictly to the central `QB3` (index `2`), every circuit (3-, 4-, and 5-qubit) compiles down to the processor's native gates (`r`/`prx` and `cz`) with **zero `SWAP` gate overhead (`0 SWAP`)**, minimizing circuit depth and decoherence errors.
 
@@ -344,7 +330,7 @@ Three full measurement campaigns of **1,300,000 shots** each were conducted (tot
 | **Valid bits per individual string** | **1,212,209** | **1,175,291** | **1,144,220** |
 | **Yield of secret key strings ($n-2$)** | 1 ($S_{Q_2}$) | 2 ($S_{Q_2}, S_{Q_3}$) | 3 ($S_{Q_2}, S_{Q_3}, S_{Q_4}$) |
 | **Total yield of secret key bits** | **1,212,209 bits** | **2,350,582 bits (+93.9%)** | **3,432,660 bits (+183.2%)** |
-| **NIST Tests post Von Neumann debiasing** | **13/13 PASS** | **12/12 PASS** | **13/13 PASS** |
+| **NIST Tests post Von Neumann debiasing** | **12/12 PASS** | **12/12 PASS** | **12/12 PASS** |
 | **NIST Tests post XOR-folding (multi-seq)** | **11/11 PASS (100%)** | **11/11 PASS (100%)** | **11/11 PASS (100%)** |
 
 ### Key Takeaways:
