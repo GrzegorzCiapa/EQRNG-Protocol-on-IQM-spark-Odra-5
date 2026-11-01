@@ -1,5 +1,7 @@
 # Splątany Kwantowy Generator Liczb Losowych (EQRNG) na procesorze IQM Odra 5 (3, 4 i 5 kubitów)
 
+*English version below / Wersja angielska poniżej.*
+
 Kompleksowa implementacja i eksperymentalna walidacja **Splątanego Kwantowego Generatora Liczb Losowych (EQRNG – Entangled Quantum Random Number Generator)** z publiczną certyfikacją losowości na 5-kubitowym nadprzewodzącym procesorze kwantowym **IQM Odra 5 (`ODRA5 IQM Spark`)**. Projekt został zrealizowany w ramach pracy inżynierskiej dotyczącej hybrydowych architektur bezpieczeństwa łączących technologie kwantowe (QRNG/EQRNG, QKD, QSDC) z kryptografią post-kwantową (PQC).
 
 Podstawę teoretyczną stanowi protokół zaproponowany przez zespół prof. Janusza Jacaka:
@@ -7,7 +9,7 @@ Podstawę teoretyczną stanowi protokół zaproponowany przez zespół prof. Jan
 
 ---
 
-## Spis treści
+## Spis treści (PL)
 1. [Idea protokołu EQRNG i dopasowanie do topologii IQM Odra 5](#1-idea-protokołu-eqrng-i-dopasowanie-do-topologii-iqm-odra-5)
 2. [Architektura projektu (Etap 1 i Etap 2)](#2-architektura-projektu-etap-1-i-etap-2)
 3. [Etap 1: Generacja kwantowa, filtracja XOR i akwizycja odporna na awarie](#3-etap-1-generacja-kwantowa-filtracja-xor-i-akwizycja-odporna-na-awarie)
@@ -40,13 +42,13 @@ Procesor **IQM Odra 5** posiada 5 nadprzewodzących kubitów transmonowych (`QB1
 ```text
         QB1 (idx 0)           QB2 (idx 1)
          [H, ster.]            [H, ster.]
-              \                   /
-               \   CX / CZ       /
-                v               v
+              \                    /
+               \   CX / CZ        /
+                v                v
                  QB3 (idx 2, Q3)
                [CENTRALNY CEL CX]
-                ^               ^
-               /   CX / CZ       \
-              /                   \
+                ^                ^
+               /   CX / CZ        \
+              /                    \
          [H, ster.]            [H, ster.]
         QB4 (idx 3)           QB5 (idx 4)
