@@ -39,21 +39,9 @@ Protokół **EQRNG** rozwiązuje ten problem za pomocą wielokubitowego splątan
 ### Dopasowanie do topologii gwiazdy procesora IQM Odra 5 (0 bramek SWAP)
 Procesor **IQM Odra 5** posiada 5 nadprzewodzących kubitów transmonowych (`QB1`–`QB5`, indeksowanych `0`–`4`) połączonych w **topologię gwiazdy**, gdzie kubitem centralnym jest **`QB3` (indeks fizyczny `2`)** połączony bezpośrednimi rezonatorami z czterema kubitami peryferyjnymi: `QB1 (0)`, `QB2 (1)`, `QB4 (3)` oraz `QB5 (4)`.
 
-```text
-        QB1 (idx 0)           QB2 (idx 1)
-         [H, ster.]            [H, ster.]
-              \                    /
-               \   CX / CZ        /
-                v                v
-                 QB3 (idx 2, Q3)
-               [CENTRALNY CEL CX]
-                ^                ^
-               /   CX / CZ        \
-              /                    \
-         [H, ster.]            [H, ster.]
-        QB4 (idx 3)           QB5 (idx 4)
 
-```
+<img width="526" height="509" alt="image" src="https://github.com/user-attachments/assets/3ea366b7-4f36-4d0b-a787-1551f3c4bfc5" />
+
 
 Graf oddziaływań dwukubitowych obwodu EQRNG jest izomorficzny z topologią gwiazdy procesora Odra 5. Przypisując kubit kontrolny zawsze do centralnego kubitu `QB3` (indeks `2`), każdy obwód (3-, 4- i 5-kubitowy) kompiluje się na natywne bramki procesora (`r`/`prx` oraz `cz`) z **zerowym narzutem bramek `SWAP` (`0 SWAP`)**, minimalizując głębokość obwodu i błędy dekoherencji.
 
