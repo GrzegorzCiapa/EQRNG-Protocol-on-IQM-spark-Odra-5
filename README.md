@@ -17,7 +17,6 @@ Podstawę teoretyczną stanowi protokół zaproponowany przez zespół prof. Jan
 5. [Szczegółowy opis zaimplementowanych testów NIST SP 800-22](#5-szczegółowy-opis-zaimplementowanych-testów-nist-sp-800-22)
 6. [Wyniki eksperymentalne dla 3, 4 i 5 kubitów na IQM Odra 5](#6-wyniki-eksperymentalne-dla-3-4-i-5-kubitów-na-iqm-odra-5)
 7. [Struktura plików wyjściowych i eksport kluczy do PQC / AES](#7-struktura-plików-wyjściowych-i-eksport-kluczy-do-pqc--aes)
-8. [Instrukcja uruchomienia](#8-instrukcja-uruchomienia)
 
 ---
 
@@ -190,7 +189,6 @@ The theoretical foundation is based on the protocol proposed by Prof. Janusz Jac
 5. [Detailed Description of Implemented NIST SP 800-22 Tests](https://www.google.com/search?q=%235-detailed-description-of-implemented-nist-sp-800-22-tests)
 6. [Experimental Results for 3, 4, and 5 Qubits on IQM Odra 5](https://www.google.com/search?q=%236-experimental-results-for-3-4-and-5-qubits-on-iqm-odra-5)
 7. [Output Files Structure and Key Export for PQC / AES](https://www.google.com/search?q=%237-output-files-structure-and-key-export-for-pqc--aes)
-8. [Setup and Run Instructions](https://www.google.com/search?q=%238-setup-and-run-instructions)
 
 ---
 
